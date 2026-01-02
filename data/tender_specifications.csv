@@ -1,0 +1,701 @@
+tender_id,clause_id,section_type,requirement_text,is_mandatory
+UADD-2024-001,CL-0001,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+MPMKVV-2024-001,CL-0002,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PHED-2024-001,CL-0003,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PWD-2024-001,CL-0004,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+PHED-2024-002,CL-0005,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PWD-2024-002,CL-0006,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+WRD-2024-001,CL-0007,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+UADD-2024-002,CL-0008,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPRDC-2024-001,CL-0009,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPMKVV-2024-002,CL-0010,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+PWD-2024-003,CL-0011,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+UADD-2024-003,CL-0012,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+PWD-2024-004,CL-0013,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+PWD-2024-005,CL-0014,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+MPMKVV-2024-003,CL-0015,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+MPMKVV-2024-004,CL-0016,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+PHED-2024-003,CL-0017,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPRDC-2024-002,CL-0018,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+UADD-2024-004,CL-0019,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+MPMKVV-2024-005,CL-0020,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+MPMKVV-2024-006,CL-0021,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPRDC-2024-003,CL-0022,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+MPMKVV-2024-007,CL-0023,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+MPRDC-2024-004,CL-0024,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PWD-2024-006,CL-0025,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+MPRDC-2024-005,CL-0026,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+WRD-2024-002,CL-0027,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+MPRDC-2024-006,CL-0028,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+MPRDC-2024-007,CL-0029,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+MPMKVV-2024-008,CL-0030,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+WRD-2024-003,CL-0031,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+PHED-2024-004,CL-0032,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+PHED-2024-005,CL-0033,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+WRD-2024-004,CL-0034,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+WRD-2024-005,CL-0035,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+PWD-2024-007,CL-0036,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+PHED-2024-006,CL-0037,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+MPMKVV-2024-009,CL-0038,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+PWD-2024-008,CL-0039,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+WRD-2024-006,CL-0040,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+MPRDC-2024-008,CL-0041,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PWD-2024-009,CL-0042,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+UADD-2024-005,CL-0043,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+WRD-2024-007,CL-0044,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+UADD-2024-006,CL-0045,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PHED-2024-007,CL-0046,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+UADD-2024-007,CL-0047,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+WRD-2024-008,CL-0048,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PHED-2024-008,CL-0049,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+MPMKVV-2024-010,CL-0050,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PHED-2024-009,CL-0051,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+MPRDC-2024-009,CL-0052,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+MPMKVV-2024-011,CL-0053,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+WRD-2024-009,CL-0054,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+PWD-2024-010,CL-0055,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+PWD-2024-011,CL-0056,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+MPMKVV-2024-012,CL-0057,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+UADD-2024-008,CL-0058,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+MPMKVV-2024-013,CL-0059,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+PWD-2024-012,CL-0060,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+MPMKVV-2024-014,CL-0061,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+PHED-2024-010,CL-0062,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+WRD-2024-010,CL-0063,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+PHED-2024-011,CL-0064,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+MPMKVV-2024-015,CL-0065,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+MPRDC-2024-010,CL-0066,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+WRD-2024-011,CL-0067,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+UADD-2024-009,CL-0068,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+WRD-2024-012,CL-0069,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPMKVV-2024-016,CL-0070,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+UADD-2024-010,CL-0071,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+UADD-2024-011,CL-0072,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+WRD-2024-013,CL-0073,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+WRD-2024-014,CL-0074,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+UADD-2024-012,CL-0075,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+MPMKVV-2024-017,CL-0076,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+PWD-2024-013,CL-0077,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PWD-2024-014,CL-0078,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+UADD-2024-013,CL-0079,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+MPMKVV-2024-018,CL-0080,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+MPMKVV-2024-019,CL-0081,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+WRD-2024-015,CL-0082,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+MPRDC-2024-011,CL-0083,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPMKVV-2024-020,CL-0084,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+WRD-2024-016,CL-0085,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+PHED-2024-012,CL-0086,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+UADD-2024-014,CL-0087,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PWD-2024-015,CL-0088,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+PHED-2024-013,CL-0089,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+PHED-2024-014,CL-0090,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+MPMKVV-2024-021,CL-0091,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+MPRDC-2024-012,CL-0092,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+UADD-2024-015,CL-0093,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPMKVV-2024-022,CL-0094,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+WRD-2024-017,CL-0095,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PWD-2024-016,CL-0096,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+MPMKVV-2024-023,CL-0097,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+PWD-2024-017,CL-0098,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPRDC-2024-013,CL-0099,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPMKVV-2024-024,CL-0100,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+MPRDC-2024-014,CL-0101,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+UADD-2024-016,CL-0102,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+WRD-2024-018,CL-0103,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+MPRDC-2024-015,CL-0104,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+PWD-2024-018,CL-0105,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+PHED-2024-015,CL-0106,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+UADD-2024-017,CL-0107,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+PWD-2024-019,CL-0108,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+WRD-2024-019,CL-0109,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+MPRDC-2024-016,CL-0110,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PHED-2024-016,CL-0111,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+WRD-2024-020,CL-0112,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+UADD-2024-018,CL-0113,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+MPMKVV-2024-025,CL-0114,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+WRD-2024-021,CL-0115,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+PWD-2024-020,CL-0116,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+UADD-2024-019,CL-0117,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+MPRDC-2024-017,CL-0118,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+WRD-2024-022,CL-0119,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+UADD-2024-020,CL-0120,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+UADD-2024-021,CL-0121,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+PHED-2024-017,CL-0122,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+UADD-2024-022,CL-0123,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+WRD-2024-023,CL-0124,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+PHED-2024-018,CL-0125,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+MPRDC-2024-018,CL-0126,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+MPRDC-2024-019,CL-0127,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+PWD-2024-021,CL-0128,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+MPMKVV-2024-026,CL-0129,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PHED-2024-019,CL-0130,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+UADD-2024-023,CL-0131,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PWD-2024-022,CL-0132,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+MPRDC-2024-020,CL-0133,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+PWD-2024-023,CL-0134,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+UADD-2024-024,CL-0135,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+MPRDC-2024-021,CL-0136,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+MPMKVV-2024-027,CL-0137,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PWD-2024-024,CL-0138,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+PWD-2024-025,CL-0139,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+MPMKVV-2024-028,CL-0140,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+UADD-2024-025,CL-0141,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+MPRDC-2024-022,CL-0142,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+MPMKVV-2024-029,CL-0143,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PWD-2024-026,CL-0144,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+MPRDC-2024-023,CL-0145,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+MPRDC-2024-024,CL-0146,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+UADD-2024-026,CL-0147,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+MPRDC-2024-025,CL-0148,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+PHED-2024-020,CL-0149,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+MPMKVV-2024-030,CL-0150,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+MPMKVV-2024-031,CL-0151,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+MPRDC-2024-026,CL-0152,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+PHED-2024-021,CL-0153,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+WRD-2024-024,CL-0154,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+MPMKVV-2024-032,CL-0155,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+MPMKVV-2024-033,CL-0156,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+UADD-2024-027,CL-0157,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+MPRDC-2024-027,CL-0158,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+MPRDC-2024-028,CL-0159,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PWD-2024-027,CL-0160,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+UADD-2024-028,CL-0161,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PWD-2024-028,CL-0162,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+PWD-2024-029,CL-0163,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+PWD-2024-030,CL-0164,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PWD-2024-031,CL-0165,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+WRD-2024-025,CL-0166,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+PHED-2024-022,CL-0167,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+UADD-2024-029,CL-0168,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPRDC-2024-029,CL-0169,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+MPMKVV-2024-034,CL-0170,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPMKVV-2024-035,CL-0171,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+MPMKVV-2024-036,CL-0172,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+PHED-2024-023,CL-0173,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+UADD-2024-030,CL-0174,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+MPMKVV-2024-037,CL-0175,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+PHED-2024-024,CL-0176,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+UADD-2024-031,CL-0177,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+PHED-2024-025,CL-0178,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+MPRDC-2024-030,CL-0179,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+PHED-2024-026,CL-0180,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+WRD-2024-026,CL-0181,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+WRD-2024-027,CL-0182,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PHED-2024-027,CL-0183,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+MPMKVV-2024-038,CL-0184,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+MPRDC-2024-031,CL-0185,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+MPRDC-2024-032,CL-0186,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+PWD-2024-032,CL-0187,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+MPRDC-2024-033,CL-0188,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+WRD-2024-028,CL-0189,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+MPRDC-2024-034,CL-0190,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+UADD-2024-032,CL-0191,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+WRD-2024-029,CL-0192,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+MPRDC-2024-035,CL-0193,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+WRD-2024-030,CL-0194,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+PHED-2024-028,CL-0195,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+PHED-2024-029,CL-0196,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+MPMKVV-2024-039,CL-0197,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PHED-2024-030,CL-0198,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+WRD-2024-031,CL-0199,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+PHED-2024-031,CL-0200,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPRDC-2024-036,CL-0201,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+MPMKVV-2024-040,CL-0202,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+WRD-2024-032,CL-0203,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+UADD-2024-033,CL-0204,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+PHED-2024-032,CL-0205,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+UADD-2024-034,CL-0206,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+PWD-2024-033,CL-0207,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+MPRDC-2024-037,CL-0208,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+PWD-2024-034,CL-0209,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+WRD-2024-033,CL-0210,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+PWD-2024-035,CL-0211,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+WRD-2024-034,CL-0212,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+MPMKVV-2024-041,CL-0213,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PHED-2024-033,CL-0214,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+MPMKVV-2024-042,CL-0215,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+MPRDC-2024-038,CL-0216,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+UADD-2024-035,CL-0217,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+PHED-2024-034,CL-0218,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+PHED-2024-035,CL-0219,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PWD-2024-036,CL-0220,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+WRD-2024-035,CL-0221,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PHED-2024-036,CL-0222,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+PWD-2024-037,CL-0223,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+PHED-2024-037,CL-0224,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+PWD-2024-038,CL-0225,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PWD-2024-039,CL-0226,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+PHED-2024-038,CL-0227,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+PWD-2024-040,CL-0228,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PHED-2024-039,CL-0229,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+PHED-2024-040,CL-0230,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+MPRDC-2024-039,CL-0231,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+MPRDC-2024-040,CL-0232,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+PHED-2024-041,CL-0233,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+UADD-2024-036,CL-0234,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPRDC-2024-041,CL-0235,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+PHED-2024-042,CL-0236,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PWD-2024-041,CL-0237,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+UADD-2024-037,CL-0238,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+UADD-2024-038,CL-0239,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+MPRDC-2024-042,CL-0240,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPRDC-2024-043,CL-0241,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+WRD-2024-036,CL-0242,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PHED-2024-043,CL-0243,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+WRD-2024-037,CL-0244,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+WRD-2024-038,CL-0245,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+MPMKVV-2024-043,CL-0246,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+WRD-2024-039,CL-0247,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+PWD-2024-042,CL-0248,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+PWD-2024-043,CL-0249,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+WRD-2024-040,CL-0250,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+WRD-2024-041,CL-0251,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+UADD-2024-039,CL-0252,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+UADD-2024-040,CL-0253,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+PHED-2024-044,CL-0254,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+MPRDC-2024-044,CL-0255,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+WRD-2024-042,CL-0256,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+MPMKVV-2024-044,CL-0257,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+PWD-2024-044,CL-0258,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+WRD-2024-043,CL-0259,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+MPRDC-2024-045,CL-0260,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+WRD-2024-044,CL-0261,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+UADD-2024-041,CL-0262,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+MPRDC-2024-046,CL-0263,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPRDC-2024-047,CL-0264,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+UADD-2024-042,CL-0265,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+UADD-2024-043,CL-0266,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+MPMKVV-2024-045,CL-0267,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+MPMKVV-2024-046,CL-0268,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+PHED-2024-045,CL-0269,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+UADD-2024-044,CL-0270,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+WRD-2024-045,CL-0271,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+MPRDC-2024-048,CL-0272,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+PHED-2024-046,CL-0273,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+MPMKVV-2024-047,CL-0274,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+MPMKVV-2024-048,CL-0275,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+MPMKVV-2024-049,CL-0276,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+PWD-2024-045,CL-0277,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+UADD-2024-045,CL-0278,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PHED-2024-047,CL-0279,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+PHED-2024-048,CL-0280,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+UADD-2024-046,CL-0281,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+UADD-2024-047,CL-0282,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PHED-2024-049,CL-0283,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+PWD-2024-046,CL-0284,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PWD-2024-047,CL-0285,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPRDC-2024-049,CL-0286,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+WRD-2024-046,CL-0287,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+PHED-2024-050,CL-0288,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+WRD-2024-047,CL-0289,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+MPMKVV-2024-050,CL-0290,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPMKVV-2024-051,CL-0291,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+UADD-2024-048,CL-0292,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+PHED-2024-051,CL-0293,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPRDC-2024-050,CL-0294,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PHED-2024-052,CL-0295,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+MPMKVV-2024-052,CL-0296,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+PWD-2024-048,CL-0297,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+UADD-2024-049,CL-0298,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+PHED-2024-053,CL-0299,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PWD-2024-049,CL-0300,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+PHED-2024-054,CL-0301,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+MPMKVV-2024-053,CL-0302,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+MPMKVV-2024-054,CL-0303,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+MPMKVV-2024-055,CL-0304,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+WRD-2024-048,CL-0305,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+UADD-2024-050,CL-0306,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+MPMKVV-2024-056,CL-0307,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+MPMKVV-2024-057,CL-0308,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPMKVV-2024-058,CL-0309,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+WRD-2024-049,CL-0310,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+UADD-2024-051,CL-0311,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PWD-2024-050,CL-0312,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+MPMKVV-2024-059,CL-0313,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+PWD-2024-051,CL-0314,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PWD-2024-052,CL-0315,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+PWD-2024-053,CL-0316,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+UADD-2024-052,CL-0317,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+MPMKVV-2024-060,CL-0318,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PHED-2024-055,CL-0319,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+MPMKVV-2024-061,CL-0320,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PHED-2024-056,CL-0321,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+MPRDC-2024-051,CL-0322,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+MPMKVV-2024-062,CL-0323,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+MPMKVV-2024-063,CL-0324,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+MPMKVV-2024-064,CL-0325,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+PHED-2024-057,CL-0326,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+UADD-2024-053,CL-0327,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+WRD-2024-050,CL-0328,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+WRD-2024-051,CL-0329,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PWD-2024-054,CL-0330,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+MPMKVV-2024-065,CL-0331,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+MPRDC-2024-052,CL-0332,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+PHED-2024-058,CL-0333,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+UADD-2024-054,CL-0334,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+PHED-2024-059,CL-0335,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+MPMKVV-2024-066,CL-0336,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+PWD-2024-055,CL-0337,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+UADD-2024-055,CL-0338,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+UADD-2024-056,CL-0339,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+PWD-2024-056,CL-0340,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+PWD-2024-057,CL-0341,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PWD-2024-058,CL-0342,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+PHED-2024-060,CL-0343,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+PHED-2024-061,CL-0344,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+UADD-2024-057,CL-0345,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+PHED-2024-062,CL-0346,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+MPMKVV-2024-067,CL-0347,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PWD-2024-059,CL-0348,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+MPRDC-2024-053,CL-0349,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+PHED-2024-063,CL-0350,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+PWD-2024-060,CL-0351,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+PHED-2024-064,CL-0352,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+WRD-2024-052,CL-0353,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPRDC-2024-054,CL-0354,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PHED-2024-065,CL-0355,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+MPRDC-2024-055,CL-0356,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+WRD-2024-053,CL-0357,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+MPRDC-2024-056,CL-0358,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+WRD-2024-054,CL-0359,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+WRD-2024-055,CL-0360,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+MPMKVV-2024-068,CL-0361,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+WRD-2024-056,CL-0362,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+WRD-2024-057,CL-0363,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+WRD-2024-058,CL-0364,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+MPMKVV-2024-069,CL-0365,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+WRD-2024-059,CL-0366,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PWD-2024-061,CL-0367,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+PWD-2024-062,CL-0368,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+PWD-2024-063,CL-0369,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+MPMKVV-2024-070,CL-0370,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+WRD-2024-060,CL-0371,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+WRD-2024-061,CL-0372,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPRDC-2024-057,CL-0373,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+PWD-2024-064,CL-0374,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+MPRDC-2024-058,CL-0375,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+MPRDC-2024-059,CL-0376,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+MPMKVV-2024-071,CL-0377,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPMKVV-2024-072,CL-0378,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+MPRDC-2024-060,CL-0379,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+UADD-2024-058,CL-0380,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+UADD-2024-059,CL-0381,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+PHED-2024-066,CL-0382,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+MPMKVV-2024-073,CL-0383,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+PHED-2024-067,CL-0384,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PHED-2024-068,CL-0385,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+PWD-2024-065,CL-0386,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPMKVV-2024-074,CL-0387,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPRDC-2024-061,CL-0388,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+MPMKVV-2024-075,CL-0389,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+MPRDC-2024-062,CL-0390,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+WRD-2024-062,CL-0391,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+PHED-2024-069,CL-0392,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+MPRDC-2024-063,CL-0393,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+MPRDC-2024-064,CL-0394,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+PWD-2024-066,CL-0395,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+UADD-2024-060,CL-0396,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+MPMKVV-2024-076,CL-0397,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+UADD-2024-061,CL-0398,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+UADD-2024-062,CL-0399,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+UADD-2025-001,CL-0400,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+UADD-2025-002,CL-0401,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PWD-2025-001,CL-0402,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+PHED-2025-001,CL-0403,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+MPMKVV-2025-001,CL-0404,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+MPMKVV-2025-002,CL-0405,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPRDC-2025-001,CL-0406,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+UADD-2025-003,CL-0407,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+WRD-2025-001,CL-0408,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+MPRDC-2025-002,CL-0409,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+WRD-2025-002,CL-0410,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PWD-2025-002,CL-0411,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PWD-2025-003,CL-0412,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+MPMKVV-2025-003,CL-0413,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+MPMKVV-2025-004,CL-0414,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+MPRDC-2025-003,CL-0415,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+UADD-2025-004,CL-0416,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+UADD-2025-005,CL-0417,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+UADD-2025-006,CL-0418,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+PHED-2025-002,CL-0419,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPMKVV-2025-005,CL-0420,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PHED-2025-003,CL-0421,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+WRD-2025-003,CL-0422,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PWD-2025-004,CL-0423,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PHED-2025-004,CL-0424,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+UADD-2025-007,CL-0425,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PHED-2025-005,CL-0426,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+WRD-2025-004,CL-0427,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+PHED-2025-006,CL-0428,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+WRD-2025-005,CL-0429,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+PHED-2025-007,CL-0430,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+MPRDC-2025-004,CL-0431,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+WRD-2025-006,CL-0432,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+PWD-2025-005,CL-0433,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+PHED-2025-008,CL-0434,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+UADD-2025-008,CL-0435,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+PWD-2025-006,CL-0436,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+PHED-2025-009,CL-0437,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+MPMKVV-2025-006,CL-0438,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+PWD-2025-007,CL-0439,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+WRD-2025-007,CL-0440,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPRDC-2025-005,CL-0441,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PHED-2025-010,CL-0442,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+PHED-2025-011,CL-0443,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+PHED-2025-012,CL-0444,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+PHED-2025-013,CL-0445,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+WRD-2025-008,CL-0446,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+MPMKVV-2025-007,CL-0447,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+WRD-2025-009,CL-0448,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+PHED-2025-014,CL-0449,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+UADD-2025-009,CL-0450,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+WRD-2025-010,CL-0451,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+PHED-2025-015,CL-0452,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+UADD-2025-010,CL-0453,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+MPRDC-2025-006,CL-0454,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+UADD-2025-011,CL-0455,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+UADD-2025-012,CL-0456,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+UADD-2025-013,CL-0457,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+MPMKVV-2025-008,CL-0458,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+MPMKVV-2025-009,CL-0459,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPRDC-2025-007,CL-0460,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+MPMKVV-2025-010,CL-0461,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+PWD-2025-008,CL-0462,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+PWD-2025-009,CL-0463,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+UADD-2025-014,CL-0464,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PHED-2025-016,CL-0465,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+UADD-2025-015,CL-0466,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+UADD-2025-016,CL-0467,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+PHED-2025-017,CL-0468,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+WRD-2025-011,CL-0469,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+PHED-2025-018,CL-0470,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+UADD-2025-017,CL-0471,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+MPMKVV-2025-011,CL-0472,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+MPMKVV-2025-012,CL-0473,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+UADD-2025-018,CL-0474,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+PWD-2025-010,CL-0475,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+WRD-2025-012,CL-0476,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+WRD-2025-013,CL-0477,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+MPMKVV-2025-013,CL-0478,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+MPRDC-2025-008,CL-0479,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPMKVV-2025-014,CL-0480,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+UADD-2025-019,CL-0481,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+PHED-2025-019,CL-0482,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+UADD-2025-020,CL-0483,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+PHED-2025-020,CL-0484,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+PHED-2025-021,CL-0485,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+UADD-2025-021,CL-0486,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPMKVV-2025-015,CL-0487,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+PWD-2025-011,CL-0488,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+UADD-2025-022,CL-0489,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+PHED-2025-022,CL-0490,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+PWD-2025-012,CL-0491,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPRDC-2025-009,CL-0492,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+WRD-2025-014,CL-0493,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+MPMKVV-2025-016,CL-0494,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PHED-2025-023,CL-0495,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+UADD-2025-023,CL-0496,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+MPMKVV-2025-017,CL-0497,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+MPRDC-2025-010,CL-0498,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+PWD-2025-013,CL-0499,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+PHED-2025-024,CL-0500,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+WRD-2025-015,CL-0501,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+UADD-2025-024,CL-0502,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+PWD-2025-014,CL-0503,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PHED-2025-025,CL-0504,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+UADD-2025-025,CL-0505,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+WRD-2025-016,CL-0506,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPRDC-2025-011,CL-0507,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+WRD-2025-017,CL-0508,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+WRD-2025-018,CL-0509,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+UADD-2025-026,CL-0510,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+UADD-2025-027,CL-0511,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+PHED-2025-026,CL-0512,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PWD-2025-015,CL-0513,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+UADD-2025-028,CL-0514,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+UADD-2025-029,CL-0515,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+UADD-2025-030,CL-0516,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPRDC-2025-012,CL-0517,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+PHED-2025-027,CL-0518,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+WRD-2025-019,CL-0519,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+MPRDC-2025-013,CL-0520,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+PWD-2025-016,CL-0521,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+PHED-2025-028,CL-0522,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PWD-2025-017,CL-0523,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+UADD-2025-031,CL-0524,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PHED-2025-029,CL-0525,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+UADD-2025-032,CL-0526,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+MPRDC-2025-014,CL-0527,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+UADD-2025-033,CL-0528,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+MPMKVV-2025-018,CL-0529,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+PWD-2025-018,CL-0530,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+UADD-2025-034,CL-0531,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PWD-2025-019,CL-0532,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+MPRDC-2025-015,CL-0533,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+MPMKVV-2025-019,CL-0534,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPMKVV-2025-020,CL-0535,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+UADD-2025-035,CL-0536,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+PHED-2025-030,CL-0537,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+PWD-2025-020,CL-0538,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+WRD-2025-020,CL-0539,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+WRD-2025-021,CL-0540,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+WRD-2025-022,CL-0541,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+UADD-2025-036,CL-0542,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+MPRDC-2025-016,CL-0543,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+UADD-2025-037,CL-0544,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+PHED-2025-031,CL-0545,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+UADD-2025-038,CL-0546,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+WRD-2025-023,CL-0547,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+MPRDC-2025-017,CL-0548,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+WRD-2025-024,CL-0549,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+UADD-2025-039,CL-0550,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+UADD-2025-040,CL-0551,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+WRD-2025-025,CL-0552,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+WRD-2025-026,CL-0553,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+MPRDC-2025-018,CL-0554,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+MPRDC-2025-019,CL-0555,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+UADD-2025-041,CL-0556,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+MPRDC-2025-020,CL-0557,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+WRD-2025-027,CL-0558,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PWD-2025-021,CL-0559,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+WRD-2025-028,CL-0560,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+UADD-2025-042,CL-0561,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+PHED-2025-032,CL-0562,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+WRD-2025-029,CL-0563,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PHED-2025-033,CL-0564,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+UADD-2025-043,CL-0565,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+MPMKVV-2025-021,CL-0566,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+PWD-2025-022,CL-0567,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+UADD-2025-044,CL-0568,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+PHED-2025-034,CL-0569,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+PWD-2025-023,CL-0570,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+PWD-2025-024,CL-0571,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+UADD-2025-045,CL-0572,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+UADD-2025-046,CL-0573,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PWD-2025-025,CL-0574,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+MPMKVV-2025-022,CL-0575,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+PWD-2025-026,CL-0576,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+MPRDC-2025-021,CL-0577,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+PHED-2025-035,CL-0578,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+WRD-2025-030,CL-0579,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+MPRDC-2025-022,CL-0580,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+PHED-2025-036,CL-0581,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+UADD-2025-047,CL-0582,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+MPMKVV-2025-023,CL-0583,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+PHED-2025-037,CL-0584,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+WRD-2025-031,CL-0585,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+UADD-2025-048,CL-0586,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+MPRDC-2025-023,CL-0587,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+PWD-2025-027,CL-0588,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+MPMKVV-2025-024,CL-0589,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+MPMKVV-2025-025,CL-0590,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+UADD-2025-049,CL-0591,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PHED-2025-038,CL-0592,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+PHED-2025-039,CL-0593,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+UADD-2025-050,CL-0594,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+MPMKVV-2025-026,CL-0595,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+PWD-2025-028,CL-0596,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PWD-2025-029,CL-0597,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+UADD-2025-051,CL-0598,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+MPRDC-2025-024,CL-0599,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PWD-2025-030,CL-0600,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+MPRDC-2025-025,CL-0601,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+MPRDC-2025-026,CL-0602,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+PWD-2025-031,CL-0603,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+PHED-2025-040,CL-0604,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+MPRDC-2025-027,CL-0605,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PWD-2025-032,CL-0606,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PWD-2025-033,CL-0607,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+MPRDC-2025-028,CL-0608,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+MPMKVV-2025-027,CL-0609,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PWD-2025-034,CL-0610,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+PWD-2025-035,CL-0611,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+PHED-2025-041,CL-0612,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+WRD-2025-032,CL-0613,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+PHED-2025-042,CL-0614,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PHED-2025-043,CL-0615,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+WRD-2025-033,CL-0616,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+PWD-2025-036,CL-0617,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+PWD-2025-037,CL-0618,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+MPMKVV-2025-028,CL-0619,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+MPRDC-2025-029,CL-0620,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+WRD-2025-034,CL-0621,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+WRD-2025-035,CL-0622,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+UADD-2025-052,CL-0623,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+MPMKVV-2025-029,CL-0624,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+MPRDC-2025-030,CL-0625,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+PWD-2025-038,CL-0626,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+PHED-2025-044,CL-0627,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+MPMKVV-2025-030,CL-0628,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+MPRDC-2025-031,CL-0629,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPMKVV-2025-031,CL-0630,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+WRD-2025-036,CL-0631,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+UADD-2025-053,CL-0632,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+MPMKVV-2025-032,CL-0633,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PHED-2025-045,CL-0634,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+MPMKVV-2025-033,CL-0635,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+PHED-2025-046,CL-0636,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+MPRDC-2025-032,CL-0637,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+UADD-2025-054,CL-0638,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPMKVV-2025-034,CL-0639,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+PHED-2025-047,CL-0640,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+WRD-2025-037,CL-0641,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+WRD-2025-038,CL-0642,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+MPMKVV-2025-035,CL-0643,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+MPRDC-2025-033,CL-0644,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+MPMKVV-2025-036,CL-0645,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPMKVV-2025-037,CL-0646,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+WRD-2025-039,CL-0647,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+PWD-2025-039,CL-0648,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PHED-2025-048,CL-0649,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+PWD-2025-040,CL-0650,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+PWD-2025-041,CL-0651,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+PHED-2025-049,CL-0652,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+PHED-2025-050,CL-0653,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+PWD-2025-042,CL-0654,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPMKVV-2025-038,CL-0655,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+PHED-2025-051,CL-0656,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+MPRDC-2025-034,CL-0657,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PWD-2025-043,CL-0658,Technical Eligibility,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,TRUE
+MPMKVV-2025-039,CL-0659,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+PWD-2025-044,CL-0660,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPMKVV-2025-040,CL-0661,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+UADD-2025-055,CL-0662,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+PHED-2025-052,CL-0663,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PWD-2025-045,CL-0664,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+MPMKVV-2025-041,CL-0665,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+WRD-2025-040,CL-0666,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PHED-2025-053,CL-0667,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+PWD-2025-046,CL-0668,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+MPMKVV-2025-042,CL-0669,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+WRD-2025-041,CL-0670,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+MPMKVV-2025-043,CL-0671,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPMKVV-2025-044,CL-0672,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PHED-2025-054,CL-0673,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+PWD-2025-047,CL-0674,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPRDC-2025-035,CL-0675,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+UADD-2025-056,CL-0676,Technical Eligibility,The technical partner must be registered within a 5km radius of the project site office.,TRUE
+MPMKVV-2025-045,CL-0677,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+MPRDC-2025-036,CL-0678,Technical Eligibility,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,TRUE
+PHED-2025-055,CL-0679,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+MPMKVV-2025-046,CL-0680,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+WRD-2025-042,CL-0681,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+MPRDC-2025-037,CL-0682,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+MPMKVV-2025-047,CL-0683,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+WRD-2025-043,CL-0684,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+PHED-2025-056,CL-0685,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
+WRD-2025-044,CL-0686,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PWD-2025-048,CL-0687,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PHED-2025-057,CL-0688,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+WRD-2025-045,CL-0689,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PWD-2025-049,CL-0690,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+MPRDC-2025-038,CL-0691,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+MPRDC-2025-039,CL-0692,Technical Eligibility,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,TRUE
+MPMKVV-2025-048,CL-0693,Technical Eligibility,Bidders must have successfully completed at least three similar projects in the last 5 years.,TRUE
+PWD-2025-050,CL-0694,Technical Eligibility,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,TRUE
+UADD-2025-057,CL-0695,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+WRD-2025-046,CL-0696,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+UADD-2025-058,CL-0697,Technical Eligibility,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,TRUE
+WRD-2025-047,CL-0698,Technical Eligibility,The bidder must possess a valid Class-A contractor license from the state government.,TRUE
+PWD-2025-051,CL-0699,Technical Eligibility,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,TRUE
+UADD-2025-059,CL-0700,Technical Eligibility,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",TRUE
