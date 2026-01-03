@@ -5,4 +5,5 @@ export { default as Navbar } from './Navbar';
 export { default as Card } from './Card';
 export { default as Select } from './Select';
 export { default as Tabs } from './Tabs';
+export { default as NetworkGraph } from './NetworkGraph';
 
