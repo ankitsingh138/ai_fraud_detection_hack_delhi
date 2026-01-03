@@ -1,7 +1,8 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useAuth } from '../context';
 import { Navbar, Card, Button, Input, Tabs, Modal } from '../components';
-import { MOCK_TENDERS, TERMS_AND_CONDITIONS } from '../data/mockData';
+import { TERMS_AND_CONDITIONS } from '../data/mockData';
+import { tenderAPI, bidAPI } from '../services/api';
 
 const Company = () => {
   const { user } = useAuth();
@@ -11,6 +12,12 @@ const Company = () => {
   const [showBidForm, setShowBidForm] = useState(false);
   const [showSuccessModal, setShowSuccessModal] = useState(false);
   const [termsAccepted, setTermsAccepted] = useState(false);
+  const [activeTenders, setActiveTenders] = useState([]);
+  const [companyBids, setCompanyBids] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [error, setError] = useState(null);
+  const [simulatedIP, setSimulatedIP] = useState('');
   const [bidData, setBidData] = useState({
     bidId: `BID-${Date.now()}`,
     bidPrice: '',
@@ -21,15 +28,45 @@ const Company = () => {
     { id: 'past', label: 'Past Bids' },
   ];
 
-  const activeTenders = MOCK_TENDERS.filter(t => t.status === 'active');
-  const companyBids = MOCK_TENDERS.filter(t => 
-    t.bids.some(b => b.bidderId === user?.id)
-  );
+  // Fetch active tenders from API
+  const fetchActiveTenders = async () => {
+    setIsLoading(true);
+    setError(null);
+    try {
+      const tenders = await tenderAPI.getActive();
+      setActiveTenders(tenders);
+    } catch (err) {
+      console.error('Error fetching tenders:', err);
+      setError('Failed to load tenders. Backend might not be running.');
+      setActiveTenders([]);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  // Fetch company's past bids
+  const fetchCompanyBids = async () => {
+    if (!user?.id) return;
+    try {
+      const bids = await bidAPI.getByCompany(user.id);
+      setCompanyBids(bids);
+    } catch (err) {
+      console.error('Error fetching bids:', err);
+      setCompanyBids([]);
+    }
+  };
+
+  useEffect(() => {
+    fetchActiveTenders();
+    fetchCompanyBids();
+  }, [user?.id]);
 
   const handleMakeBid = (tender) => {
     setSelectedTender(tender);
     setShowTerms(true);
     setTermsAccepted(false);
+    // Generate IP when starting bid process
+    setSimulatedIP(`192.168.${Math.floor(Math.random() * 255)}.${Math.floor(Math.random() * 255)}`);
   };
 
   const handleAcceptTerms = () => {
@@ -43,15 +80,33 @@ const Company = () => {
     }
   };
 
-  const handleSubmitBid = (e) => {
+  const handleSubmitBid = async (e) => {
     e.preventDefault();
-    setShowBidForm(false);
-    setShowSuccessModal(true);
-    setSelectedTender(null);
-  };
+    setIsSubmitting(true);
+    setError(null);
 
-  const getMockedIP = () => {
-    return `192.168.${Math.floor(Math.random() * 255)}.${Math.floor(Math.random() * 255)}`;
+    try {
+      const bidPayload = {
+        tenderId: selectedTender?.tenderId,
+        companyId: user?.id,
+        bidAmount: parseFloat(bidData.bidPrice),
+      };
+
+      const result = await bidAPI.create(bidPayload);
+      console.log('Bid created:', result);
+      
+      setShowBidForm(false);
+      setShowSuccessModal(true);
+      setSelectedTender(null);
+      
+      // Refresh bids list
+      fetchCompanyBids();
+    } catch (err) {
+      console.error('Error submitting bid:', err);
+      setError(err.message || 'Failed to submit bid');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -88,54 +143,90 @@ const Company = () => {
         <Tabs tabs={tabs} activeTab={activeTab} onChange={setActiveTab} />
 
         {activeTab === 'active' && (
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {activeTenders.map((tender) => (
-              <Card key={tender.id} className="flex flex-col">
-                <div className="flex items-start justify-between mb-4">
-                  <span className="px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400">
-                    Active
-                  </span>
-                  <span className="text-sm text-gray-500 dark:text-gray-400">
-                    {tender.department}
-                  </span>
-                </div>
-                
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2 line-clamp-2">
-                  {tender.title}
-                </h3>
-                
-                <div className="space-y-2 text-sm text-gray-600 dark:text-gray-400 mb-4 flex-1">
-                  <p className="flex items-center gap-2">
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                    </svg>
-                    {tender.location} - {tender.pincode}
-                  </p>
-                  <p className="flex items-center gap-2">
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                    </svg>
-                    Closes: {tender.closingDate}
-                  </p>
-                </div>
-                
-                <div className="pt-4 border-t border-light-border dark:border-dark-border">
-                  <div className="flex items-center justify-between mb-4">
-                    <span className="text-2xl font-bold text-accent-primary dark:text-accent-secondary">
-                      ₹{tender.estimatedAmount} Cr
-                    </span>
-                    <span className="text-sm text-gray-500 dark:text-gray-400">
-                      {tender.bids.length} bid{tender.bids.length !== 1 ? 's' : ''}
-                    </span>
-                  </div>
-                  <Button fullWidth onClick={() => handleMakeBid(tender)}>
-                    Make a Bid
-                  </Button>
+          <>
+            {isLoading ? (
+              <Card>
+                <div className="text-center py-16">
+                  <div className="animate-spin w-12 h-12 border-3 border-accent-primary border-t-transparent rounded-full mx-auto mb-4"></div>
+                  <p className="text-gray-600 dark:text-gray-400">Loading tenders...</p>
                 </div>
               </Card>
-            ))}
-          </div>
+            ) : error ? (
+              <Card>
+                <div className="text-center py-16">
+                  <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-amber-100 dark:bg-amber-900/30 flex items-center justify-center">
+                    <svg className="w-10 h-10 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                    </svg>
+                  </div>
+                  <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">Could not load tenders</h3>
+                  <p className="text-gray-600 dark:text-gray-400 mb-6">{error}</p>
+                  <Button onClick={fetchActiveTenders}>Retry</Button>
+                </div>
+              </Card>
+            ) : activeTenders.length === 0 ? (
+              <Card>
+                <div className="text-center py-16">
+                  <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center">
+                    <svg className="w-10 h-10 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                  </div>
+                  <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">No active tenders</h3>
+                  <p className="text-gray-600 dark:text-gray-400">Check back later for new tender opportunities.</p>
+                </div>
+              </Card>
+            ) : (
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {activeTenders.map((tender) => (
+                  <Card key={tender.tenderId || tender._id} className="flex flex-col">
+                    <div className="flex items-start justify-between mb-4">
+                      <span className="px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400">
+                        Active
+                      </span>
+                      <span className="text-sm text-gray-500 dark:text-gray-400">
+                        {tender.deptName}
+                      </span>
+                    </div>
+                    
+                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2 line-clamp-2">
+                      {tender.title || `${tender.deptName} Tender`}
+                    </h3>
+                    
+                    <div className="space-y-2 text-sm text-gray-600 dark:text-gray-400 mb-4 flex-1">
+                      <p className="flex items-center gap-2">
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                        {tender.location} - {tender.pincode}
+                      </p>
+                      <p className="flex items-center gap-2">
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                        </svg>
+                        Published: {new Date(tender.publishDate).toLocaleDateString()}
+                      </p>
+                    </div>
+                    
+                    <div className="pt-4 border-t border-light-border dark:border-dark-border">
+                      <div className="flex items-center justify-between mb-4">
+                        <span className="text-2xl font-bold text-accent-primary dark:text-accent-secondary">
+                          ₹{tender.estValueInCr} Cr
+                        </span>
+                        <span className="text-xs text-gray-500 dark:text-gray-400 font-mono">
+                          {tender.tenderId}
+                        </span>
+                      </div>
+                      <Button fullWidth onClick={() => handleMakeBid(tender)}>
+                        Make a Bid
+                      </Button>
+                    </div>
+                  </Card>
+                ))}
+              </div>
+            )}
+          </>
         )}
 
         {activeTab === 'past' && (
@@ -155,44 +246,50 @@ const Company = () => {
                 </div>
               </Card>
             ) : (
-              companyBids.map((tender) => {
-                const myBid = tender.bids.find(b => b.bidderId === user?.id);
-                return (
-                  <Card key={tender.id} hover={false}>
-                    <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
-                      <div className="flex-1">
-                        <div className="flex items-center gap-3 mb-2">
-                          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                            {tender.title}
-                          </h3>
-                          {myBid?.winner && (
-                            <span className="px-3 py-1 rounded-full text-xs font-medium bg-accent-success/20 text-accent-success">
-                              🏆 Won
-                            </span>
-                          )}
-                        </div>
-                        <p className="text-sm text-gray-600 dark:text-gray-400">
-                          {tender.department} • {tender.location}
+              companyBids.map((bid) => (
+                <Card key={bid.bidId || bid._id} hover={false}>
+                  <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                    <div className="flex-1">
+                      <div className="flex items-center gap-3 mb-2">
+                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                          {bid.tender?.title || bid.tenderId}
+                        </h3>
+                        {bid.status === 'winner' && (
+                          <span className="px-3 py-1 rounded-full text-xs font-medium bg-accent-success/20 text-accent-success">
+                            🏆 Won
+                          </span>
+                        )}
+                        <span className={`px-2 py-0.5 rounded text-xs font-medium ${
+                          bid.status === 'pending' ? 'bg-yellow-100 text-yellow-700 dark:bg-yellow-900/30 dark:text-yellow-400' :
+                          bid.status === 'accepted' ? 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400' :
+                          'bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-400'
+                        }`}>
+                          {bid.status}
+                        </span>
+                      </div>
+                      <p className="text-sm text-gray-600 dark:text-gray-400">
+                        {bid.tender?.location || 'N/A'} • Bid on {new Date(bid.bidDate).toLocaleDateString()}
+                      </p>
+                    </div>
+                    <div className="flex items-center gap-6">
+                      <div className="text-right">
+                        <p className="text-sm text-gray-500 dark:text-gray-400">Your Bid</p>
+                        <p className="text-xl font-bold text-gray-900 dark:text-white">
+                          ₹{(bid.bidAmount / 100).toFixed(2)} Cr
                         </p>
                       </div>
-                      <div className="flex items-center gap-6">
-                        <div className="text-right">
-                          <p className="text-sm text-gray-500 dark:text-gray-400">Your Bid</p>
-                          <p className="text-xl font-bold text-gray-900 dark:text-white">
-                            ₹{myBid?.amount} Cr
-                          </p>
-                        </div>
+                      {bid.tender && (
                         <div className="text-right">
                           <p className="text-sm text-gray-500 dark:text-gray-400">Estimated</p>
                           <p className="text-xl font-bold text-gray-600 dark:text-gray-400">
-                            ₹{tender.estimatedAmount} Cr
+                            ₹{bid.tender.estValueInCr} Cr
                           </p>
                         </div>
-                      </div>
+                      )}
                     </div>
-                  </Card>
-                );
-              })
+                  </div>
+                </Card>
+              ))
             )}
           </div>
         )}
@@ -239,12 +336,18 @@ const Company = () => {
         showCloseButton={false}
       >
         <form onSubmit={handleSubmitBid}>
+          {error && (
+            <div className="mb-4 p-3 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg">
+              <p className="text-red-600 dark:text-red-400 text-sm">{error}</p>
+            </div>
+          )}
+
           <div className="mb-4 p-4 bg-gray-50 dark:bg-gray-900 rounded-lg">
             <h4 className="font-medium text-gray-900 dark:text-white mb-2">
-              {selectedTender?.title}
+              {selectedTender?.title || `${selectedTender?.deptName} Tender`}
             </h4>
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              Estimated: ₹{selectedTender?.estimatedAmount} Cr
+              Estimated: ₹{selectedTender?.estValueInCr} Cr
             </p>
           </div>
 
@@ -255,20 +358,20 @@ const Company = () => {
           />
 
           <Input
-            label="Bidder ID"
+            label="Company ID"
             value={user?.id || ''}
             readOnly
           />
 
           <Input
             label="Tender ID"
-            value={selectedTender?.id || ''}
+            value={selectedTender?.tenderId || ''}
             readOnly
           />
 
           <Input
-            label="IP Address"
-            value={getMockedIP()}
+            label="IP Address (Simulated)"
+            value={simulatedIP}
             readOnly
           />
 
@@ -289,15 +392,23 @@ const Company = () => {
               placeholder="Enter your bid amount"
               required
               className="input-field"
+              disabled={isSubmitting}
             />
           </div>
 
           <div className="flex gap-4 mt-6">
-            <Button type="button" variant="secondary" onClick={() => setShowBidForm(false)} fullWidth>
+            <Button type="button" variant="secondary" onClick={() => setShowBidForm(false)} fullWidth disabled={isSubmitting}>
               Cancel
             </Button>
-            <Button type="submit" fullWidth>
-              Submit Bid
+            <Button type="submit" fullWidth disabled={isSubmitting}>
+              {isSubmitting ? (
+                <span className="flex items-center justify-center gap-2">
+                  <div className="animate-spin w-4 h-4 border-2 border-white border-t-transparent rounded-full"></div>
+                  Submitting...
+                </span>
+              ) : (
+                'Submit Bid'
+              )}
             </Button>
           </div>
         </form>

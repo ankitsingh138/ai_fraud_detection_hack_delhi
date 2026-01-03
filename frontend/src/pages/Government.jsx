@@ -1,13 +1,8 @@
 import { useState, useEffect, useRef } from 'react';
 import { useAuth } from '../context';
 import { Navbar, Card, Button, Input, Select, Modal } from '../components';
-import { DEPARTMENTS, MOCK_TENDERS } from '../data/mockData';
-
-const generateTenderId = () => {
-  const timestamp = Date.now().toString().slice(-6);
-  const random = Math.floor(Math.random() * 100).toString().padStart(2, '0');
-  return `TND-2025-${timestamp}-${random}`;
-};
+import { DEPARTMENTS } from '../data/mockData';
+import { tenderAPI } from '../services/api';
 
 const INDIAN_CITIES = [
   { city: 'Mumbai', pincode: '400001', state: 'Maharashtra' },
@@ -117,12 +112,15 @@ const Government = () => {
   const [showSuccessModal, setShowSuccessModal] = useState(false);
   const [showCitySuggestions, setShowCitySuggestions] = useState(false);
   const [citySuggestions, setCitySuggestions] = useState([]);
+  const [departmentTenders, setDepartmentTenders] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [error, setError] = useState(null);
   const cityInputRef = useRef(null);
   
   const departmentName = DEPARTMENTS.find(d => d.value === user?.department)?.label || user?.department;
   
   const [formData, setFormData] = useState({
-    tenderId: generateTenderId(),
     tenderTitle: '',
     day: '',
     month: '',
@@ -132,6 +130,28 @@ const Government = () => {
     estimatedAmount: '',
     mandatoryConditions: '',
   });
+
+  // Fetch department tenders from API
+  const fetchTenders = async () => {
+    setIsLoading(true);
+    setError(null);
+    try {
+      const tenders = await tenderAPI.getAll({ deptName: user?.department });
+      setDepartmentTenders(tenders);
+    } catch (err) {
+      console.error('Error fetching tenders:', err);
+      setError('Failed to load tenders. Backend might not be running.');
+      setDepartmentTenders([]);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    if (user?.department) {
+      fetchTenders();
+    }
+  }, [user?.department]);
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -186,28 +206,42 @@ const Government = () => {
     { value: '2026', label: '2026' },
   ];
 
-  const departmentTenders = MOCK_TENDERS.filter(
-    t => t.department === user?.department
-  );
-
-  useEffect(() => {
-    if (currentView === 'publish') {
-      setFormData(prev => ({
-        ...prev,
-        tenderId: generateTenderId(),
-      }));
-    }
-  }, [currentView]);
-
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    setShowSuccessModal(true);
+    setIsSubmitting(true);
+    setError(null);
+
+    try {
+      const publishDate = new Date(
+        parseInt(formData.year),
+        parseInt(formData.month) - 1,
+        parseInt(formData.day)
+      );
+
+      const tenderData = {
+        deptName: user?.department,
+        title: formData.tenderTitle,
+        location: formData.city,
+        pincode: formData.pincode,
+        estValueInCr: formData.estimatedAmount,
+        publishDate: publishDate.toISOString(),
+        mandatoryConditions: formData.mandatoryConditions,
+      };
+
+      await tenderAPI.create(tenderData);
+      setShowSuccessModal(true);
+      fetchTenders(); // Refresh the list
+    } catch (err) {
+      console.error('Error creating tender:', err);
+      setError(err.message || 'Failed to publish tender. Please try again.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleSuccessClose = () => {
     setShowSuccessModal(false);
     setFormData({
-      tenderId: generateTenderId(),
       tenderTitle: '',
       day: '',
       month: '',
@@ -306,26 +340,37 @@ const Government = () => {
 
           {/* Stats Bar */}
           <div className="mt-12 p-6 rounded-2xl bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-800/50 dark:to-gray-900/50 border border-gray-200 dark:border-gray-700/50 backdrop-blur-sm">
-            <div className="grid grid-cols-3 gap-8 text-center">
-              <div>
-                <p className="text-3xl font-bold text-accent-primary dark:text-accent-secondary">
-                  {departmentTenders.filter(t => t.status === 'active').length}
-                </p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">Active Tenders</p>
+            {isLoading ? (
+              <div className="text-center py-4">
+                <div className="animate-spin w-8 h-8 border-2 border-accent-primary border-t-transparent rounded-full mx-auto"></div>
+                <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">Loading stats...</p>
               </div>
-              <div>
-                <p className="text-3xl font-bold text-accent-primary dark:text-accent-secondary">
-                  {departmentTenders.filter(t => t.status === 'completed').length}
-                </p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">Completed</p>
+            ) : error ? (
+              <div className="text-center py-4">
+                <p className="text-amber-600 dark:text-amber-400 text-sm">{error}</p>
               </div>
-              <div>
-                <p className="text-3xl font-bold text-accent-primary dark:text-accent-secondary">
-                  {departmentTenders.reduce((sum, t) => sum + t.bids.length, 0)}
-                </p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">Total Bids</p>
+            ) : (
+              <div className="grid grid-cols-3 gap-8 text-center">
+                <div>
+                  <p className="text-3xl font-bold text-accent-primary dark:text-accent-secondary">
+                    {departmentTenders.filter(t => t.status === 'active').length}
+                  </p>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">Active Tenders</p>
+                </div>
+                <div>
+                  <p className="text-3xl font-bold text-accent-primary dark:text-accent-secondary">
+                    {departmentTenders.filter(t => t.status === 'completed').length}
+                  </p>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">Completed</p>
+                </div>
+                <div>
+                  <p className="text-3xl font-bold text-accent-primary dark:text-accent-secondary">
+                    {departmentTenders.length}
+                  </p>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">Total Tenders</p>
+                </div>
               </div>
-            </div>
+            )}
           </div>
         </main>
       </div>
@@ -375,13 +420,20 @@ const Government = () => {
             </div>
             
             <form onSubmit={handleSubmit} className="space-y-6">
+              {/* Error message */}
+              {error && (
+                <div className="p-4 rounded-xl bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800">
+                  <p className="text-red-600 dark:text-red-400 text-sm">{error}</p>
+                </div>
+              )}
+
               {/* Auto-generated fields */}
               <div className="p-5 rounded-xl bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 border border-blue-200 dark:border-blue-800">
                 <p className="text-xs font-semibold text-blue-600 dark:text-blue-400 uppercase tracking-wider mb-4">Auto-Generated Information</p>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <label className="text-sm text-gray-600 dark:text-gray-400">Tender ID</label>
-                    <p className="text-xl font-mono font-bold text-gray-900 dark:text-white mt-1">{formData.tenderId}</p>
+                    <p className="text-xl font-mono font-bold text-gray-900 dark:text-white mt-1">Auto-generated on submit</p>
                   </div>
                   <div>
                     <label className="text-sm text-gray-600 dark:text-gray-400">Department</label>
@@ -528,11 +580,18 @@ const Government = () => {
 
               {/* Actions */}
               <div className="flex justify-end gap-4 pt-6 border-t border-gray-200 dark:border-gray-700">
-                <Button type="button" variant="secondary" onClick={() => setCurrentView('home')}>
+                <Button type="button" variant="secondary" onClick={() => setCurrentView('home')} disabled={isSubmitting}>
                   Cancel
                 </Button>
-                <Button type="submit">
-                  Publish Tender
+                <Button type="submit" disabled={isSubmitting}>
+                  {isSubmitting ? (
+                    <span className="flex items-center gap-2">
+                      <div className="animate-spin w-4 h-4 border-2 border-white border-t-transparent rounded-full"></div>
+                      Publishing...
+                    </span>
+                  ) : (
+                    'Publish Tender'
+                  )}
                 </Button>
               </div>
             </form>
@@ -603,7 +662,29 @@ const Government = () => {
             </div>
           </div>
 
-          {departmentTenders.length === 0 ? (
+          {isLoading ? (
+            <Card>
+              <div className="text-center py-16">
+                <div className="animate-spin w-12 h-12 border-3 border-accent-primary border-t-transparent rounded-full mx-auto mb-4"></div>
+                <p className="text-gray-600 dark:text-gray-400">Loading tenders...</p>
+              </div>
+            </Card>
+          ) : error ? (
+            <Card>
+              <div className="text-center py-16">
+                <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-amber-100 dark:bg-amber-900/30 flex items-center justify-center">
+                  <svg className="w-10 h-10 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+                  Could not load tenders
+                </h3>
+                <p className="text-gray-600 dark:text-gray-400 mb-6">{error}</p>
+                <Button onClick={fetchTenders}>Retry</Button>
+              </div>
+            </Card>
+          ) : departmentTenders.length === 0 ? (
             <Card>
               <div className="text-center py-16">
                 <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center">
@@ -625,7 +706,7 @@ const Government = () => {
           ) : (
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {departmentTenders.map((tender) => (
-                <Card key={tender.id} className="flex flex-col">
+                <Card key={tender.tenderId || tender._id} className="flex flex-col">
                   {/* Status Badge */}
                   <div className="flex items-center justify-between mb-4">
                     <span className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold ${
@@ -634,16 +715,16 @@ const Government = () => {
                         : 'bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-400'
                     }`}>
                       <span className={`w-2 h-2 rounded-full ${tender.status === 'active' ? 'bg-green-500 animate-pulse' : 'bg-gray-400'}`} />
-                      {tender.status.charAt(0).toUpperCase() + tender.status.slice(1)}
+                      {tender.status?.charAt(0).toUpperCase() + tender.status?.slice(1)}
                     </span>
                     <span className="text-xs text-gray-500 dark:text-gray-500 font-mono">
-                      {tender.id}
+                      {tender.tenderId}
                     </span>
                   </div>
 
                   {/* Title */}
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2 line-clamp-2">
-                    {tender.title}
+                    {tender.title || `${tender.deptName} Tender`}
                   </h3>
 
                   {/* Details */}
@@ -659,7 +740,7 @@ const Government = () => {
                       <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                       </svg>
-                      <span>Closes: {tender.closingDate}</span>
+                      <span>Published: {new Date(tender.publishDate).toLocaleDateString()}</span>
                     </div>
                   </div>
 
@@ -668,15 +749,12 @@ const Government = () => {
                     <div className="flex items-center justify-between">
                       <div>
                         <p className="text-2xl font-bold text-gray-900 dark:text-white">
-                          ₹{tender.estimatedAmount} Cr
+                          ₹{tender.estValueInCr} Cr
                         </p>
                         <p className="text-xs text-gray-500 dark:text-gray-500">Estimated Value</p>
                       </div>
                       <div className="text-right">
-                        <p className="text-2xl font-bold text-purple-600 dark:text-purple-400">
-                          {tender.bids.length}
-                        </p>
-                        <p className="text-xs text-gray-500 dark:text-gray-500">Bids Received</p>
+                        <p className="text-xs text-gray-500 dark:text-gray-500 font-mono">{tender.deptName}</p>
                       </div>
                     </div>
                   </div>

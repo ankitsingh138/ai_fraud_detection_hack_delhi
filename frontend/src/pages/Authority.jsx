@@ -1,6 +1,7 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Navbar, Card, Button, Tabs, NetworkGraph } from '../components';
 import { useAuth } from '../context';
+import { fraudAPI } from '../services/api';
 import {
   ADDRESS_COLLUSION_DATA,
   IP_COLLUSION_DATA,
@@ -15,6 +16,15 @@ const Authority = () => {
   const [isAnalyzing, setIsAnalyzing] = useState(false);
   const [analysisResults, setAnalysisResults] = useState(null);
   const [selectedTender, setSelectedTender] = useState(null);
+  
+  // API data states
+  const [addressData, setAddressData] = useState(null);
+  const [ipData, setIPData] = useState(null);
+  const [ownershipData, setOwnershipData] = useState(null);
+  const [financialData, setFinancialData] = useState(null);
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState(null);
+  const [useMockData, setUseMockData] = useState(false);
 
   const tabs = [
     { id: 'address', label: '📍 Address Collusion' },
@@ -24,15 +34,81 @@ const Authority = () => {
     { id: 'financial', label: '🏦 Financial Ties' },
   ];
 
-  const handleRunAnalysis = () => {
+  // Fetch fraud data from API
+  const fetchFraudData = async () => {
+    setIsLoading(true);
+    setError(null);
+    
+    try {
+      const [address, ip, ownership, financial] = await Promise.all([
+        fraudAPI.getAddressCollusion(),
+        fraudAPI.getIPCollusion(),
+        fraudAPI.getSharedOwnership(),
+        fraudAPI.getFinancialTies()
+      ]);
+      
+      setAddressData(address);
+      setIPData(ip);
+      setOwnershipData(ownership);
+      setFinancialData(financial);
+      setUseMockData(false);
+    } catch (err) {
+      console.error('Error fetching fraud data:', err);
+      setError('Backend not available. Showing demo data.');
+      setUseMockData(true);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    fetchFraudData();
+  }, []);
+
+  // Get current data (API or mock fallback)
+  const getAddressData = () => useMockData ? ADDRESS_COLLUSION_DATA : (addressData || ADDRESS_COLLUSION_DATA);
+  const getIPData = () => useMockData ? IP_COLLUSION_DATA : (ipData || IP_COLLUSION_DATA);
+  const getOwnershipData = () => useMockData ? SHARED_OWNERSHIP_DATA : (ownershipData || SHARED_OWNERSHIP_DATA);
+  const getFinancialData = () => useMockData ? FINANCIAL_TIES_DATA : (financialData || FINANCIAL_TIES_DATA);
+
+  const handleRunAnalysis = async () => {
     setIsAnalyzing(true);
     setAnalysisResults(null);
     
-    // Simulate NLP analysis
-    setTimeout(() => {
-      setIsAnalyzing(false);
+    try {
+      // Call the actual NLP analysis API
+      await fraudAPI.analyzeTenders();
+      
+      // Then fetch the results
+      const results = await fraudAPI.getTailoredClauses(0.5);
+      
+      if (results.highRiskTenders && results.highRiskTenders.length > 0) {
+        // Transform API response to match UI format
+        const formattedResults = results.highRiskTenders.map(t => ({
+          tenderId: t.tenderId,
+          title: t.tender?.title || `${t.tender?.deptName} Tender`,
+          department: t.tender?.deptName || 'Unknown',
+          riskScore: t.riskScore,
+          riskLevel: t.riskScore > 0.8 ? 'high' : t.riskScore > 0.6 ? 'medium' : 'low',
+          specifications: {
+            estimatedCost: t.tender ? `₹${t.tender.estValueInCr} Cr` : 'N/A',
+            deadline: 'As per tender',
+            location: t.tender?.location || 'N/A',
+            eligibility: 'See flagged clauses'
+          },
+          flaggedClauses: t.flaggedClauses?.map(c => c.requirementText) || []
+        }));
+        setAnalysisResults(formattedResults);
+      } else {
+        setAnalysisResults([]);
+      }
+    } catch (err) {
+      console.error('NLP analysis error:', err);
+      // Fall back to mock data
       setAnalysisResults(TAILORED_CLAUSE_DATA);
-    }, 2000);
+    } finally {
+      setIsAnalyzing(false);
+    }
   };
 
   const getRiskBadgeColor = (riskLevel) => {
@@ -82,24 +158,48 @@ const Authority = () => {
           </div>
         </div>
 
+        {/* Connection Status Banner */}
+        {error && (
+          <div className="mb-4 p-3 rounded-lg bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800">
+            <div className="flex items-center gap-2">
+              <svg className="w-5 h-5 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+              </svg>
+              <span className="text-amber-700 dark:text-amber-400 text-sm">{error}</span>
+              <Button variant="secondary" onClick={fetchFraudData} className="ml-auto text-xs py-1 px-3">
+                Retry Connection
+              </Button>
+            </div>
+          </div>
+        )}
+
         {/* Stats Bar */}
         <div className="grid grid-cols-5 gap-4 mb-8">
-          {[
-            { label: 'Address Alerts', value: ADDRESS_COLLUSION_DATA.tableData.length, color: 'from-red-500 to-orange-500' },
-            { label: 'IP Conflicts', value: IP_COLLUSION_DATA.tableData.length, color: 'from-amber-500 to-yellow-500' },
-            { label: 'Ownership Flags', value: SHARED_OWNERSHIP_DATA.tableData.length, color: 'from-purple-500 to-violet-500' },
-            { label: 'Risky Tenders', value: TAILORED_CLAUSE_DATA.length, color: 'from-pink-500 to-rose-500' },
-            { label: 'Financial Links', value: FINANCIAL_TIES_DATA.bankTableData.length, color: 'from-cyan-500 to-blue-500' },
-          ].map((stat, index) => (
-            <div
-              key={index}
-              className="relative overflow-hidden rounded-xl p-4 bg-white dark:bg-gray-900/80 border border-gray-200 dark:border-gray-800 shadow-lg"
-            >
-              <div className={`absolute top-0 left-0 w-1 h-full bg-gradient-to-b ${stat.color}`} />
-              <p className="text-3xl font-bold text-gray-900 dark:text-white">{stat.value}</p>
-              <p className="text-sm text-gray-600 dark:text-gray-400">{stat.label}</p>
-            </div>
-          ))}
+          {isLoading ? (
+            Array(5).fill(0).map((_, index) => (
+              <div key={index} className="relative overflow-hidden rounded-xl p-4 bg-white dark:bg-gray-900/80 border border-gray-200 dark:border-gray-800 shadow-lg animate-pulse">
+                <div className="h-8 bg-gray-200 dark:bg-gray-700 rounded w-12 mb-2"></div>
+                <div className="h-4 bg-gray-200 dark:bg-gray-700 rounded w-20"></div>
+              </div>
+            ))
+          ) : (
+            [
+              { label: 'Address Alerts', value: getAddressData().tableData?.length || 0, color: 'from-red-500 to-orange-500' },
+              { label: 'IP Conflicts', value: getIPData().tableData?.length || 0, color: 'from-amber-500 to-yellow-500' },
+              { label: 'Ownership Flags', value: getOwnershipData().tableData?.length || 0, color: 'from-purple-500 to-violet-500' },
+              { label: 'Risky Tenders', value: analysisResults?.length || TAILORED_CLAUSE_DATA.length, color: 'from-pink-500 to-rose-500' },
+              { label: 'Financial Links', value: getFinancialData().tableData?.sharedBankAccounts?.length || getFinancialData().bankTableData?.length || 0, color: 'from-cyan-500 to-blue-500' },
+            ].map((stat, index) => (
+              <div
+                key={index}
+                className="relative overflow-hidden rounded-xl p-4 bg-white dark:bg-gray-900/80 border border-gray-200 dark:border-gray-800 shadow-lg"
+              >
+                <div className={`absolute top-0 left-0 w-1 h-full bg-gradient-to-b ${stat.color}`} />
+                <p className="text-3xl font-bold text-gray-900 dark:text-white">{stat.value}</p>
+                <p className="text-sm text-gray-600 dark:text-gray-400">{stat.label}</p>
+              </div>
+            ))
+          )}
         </div>
 
         {/* Tabs */}
@@ -110,8 +210,8 @@ const Authority = () => {
           <div className="space-y-6">
             <Card hover={false}>
               <NetworkGraph
-                nodes={ADDRESS_COLLUSION_DATA.nodes}
-                edges={ADDRESS_COLLUSION_DATA.edges}
+                nodes={getAddressData().nodes || []}
+                edges={getAddressData().edges || []}
                 title="Address-Company Network Graph"
                 height={450}
               />
@@ -132,7 +232,7 @@ const Authority = () => {
                     </tr>
                   </thead>
                   <tbody>
-                    {ADDRESS_COLLUSION_DATA.tableData.map((row, index) => (
+                    {(getAddressData().tableData || []).map((row, index) => (
                       <tr key={index} className="border-b border-gray-100 dark:border-gray-800 hover:bg-gray-50 dark:hover:bg-gray-800/50">
                         <td className="py-4 px-4">
                           <div className="flex items-center gap-2">
@@ -142,19 +242,19 @@ const Authority = () => {
                         </td>
                         <td className="py-4 px-4">
                           <div className="flex flex-wrap gap-2">
-                            {row.companies.map((company, idx) => (
+                            {(row.companies || []).map((company, idx) => (
                               <span
                                 key={idx}
                                 className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400"
                               >
-                                🏢 {company}
+                                🏢 {typeof company === 'object' ? company.name : company}
                               </span>
                             ))}
                           </div>
                         </td>
                         <td className="py-4 px-4 text-center">
                           <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400 font-bold">
-                            {row.companies.length}
+                            {row.count || row.companies?.length || 0}
                           </span>
                         </td>
                       </tr>
@@ -171,8 +271,8 @@ const Authority = () => {
           <div className="space-y-6">
             <Card hover={false}>
               <NetworkGraph
-                nodes={IP_COLLUSION_DATA.nodes}
-                edges={IP_COLLUSION_DATA.edges}
+                nodes={getIPData().nodes || []}
+                edges={getIPData().edges || []}
                 title="IP Address - Bid Network Graph"
                 height={450}
               />
@@ -188,32 +288,32 @@ const Authority = () => {
                   <thead>
                     <tr className="border-b border-gray-200 dark:border-gray-700">
                       <th className="text-left py-3 px-4 font-semibold text-gray-900 dark:text-white">IP Address</th>
-                      <th className="text-left py-3 px-4 font-semibold text-gray-900 dark:text-white">Tender</th>
+                      <th className="text-left py-3 px-4 font-semibold text-gray-900 dark:text-white">Bid Count</th>
                       <th className="text-left py-3 px-4 font-semibold text-gray-900 dark:text-white">Bids from this IP</th>
                     </tr>
                   </thead>
                   <tbody>
-                    {IP_COLLUSION_DATA.tableData.map((row, index) => (
+                    {(getIPData().tableData || []).map((row, index) => (
                       <tr key={index} className="border-b border-gray-100 dark:border-gray-800 hover:bg-gray-50 dark:hover:bg-gray-800/50">
                         <td className="py-4 px-4">
                           <div className="flex items-center gap-2">
                             <span className="text-amber-500">🌐</span>
                             <code className="font-mono text-sm font-medium text-gray-900 dark:text-white bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">
-                              {row.ip}
+                              {row.ipAddress || row.ip}
                             </code>
                           </div>
                         </td>
                         <td className="py-4 px-4">
-                          <span className="font-mono text-sm text-purple-600 dark:text-purple-400">{row.tender}</span>
+                          <span className="font-mono text-sm text-purple-600 dark:text-purple-400">{row.bidCount || row.bids?.length || 0}</span>
                         </td>
                         <td className="py-4 px-4">
                           <div className="flex flex-wrap gap-2">
-                            {row.bids.map((bid, idx) => (
+                            {(row.bids || []).map((bid, idx) => (
                               <span
                                 key={idx}
                                 className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400"
                               >
-                                📄 {bid}
+                                📄 {typeof bid === 'object' ? `${bid.company} → ${bid.tender}` : bid}
                               </span>
                             ))}
                           </div>
@@ -232,8 +332,8 @@ const Authority = () => {
           <div className="space-y-6">
             <Card hover={false}>
               <NetworkGraph
-                nodes={SHARED_OWNERSHIP_DATA.nodes}
-                edges={SHARED_OWNERSHIP_DATA.edges}
+                nodes={getOwnershipData().nodes || []}
+                edges={getOwnershipData().edges || []}
                 title="Person - Company Ownership Network"
                 height={450}
               />
@@ -249,32 +349,32 @@ const Authority = () => {
                   <thead>
                     <tr className="border-b border-gray-200 dark:border-gray-700">
                       <th className="text-left py-3 px-4 font-semibold text-gray-900 dark:text-white">Person Name</th>
-                      <th className="text-left py-3 px-4 font-semibold text-gray-900 dark:text-white">PAN</th>
+                      <th className="text-left py-3 px-4 font-semibold text-gray-900 dark:text-white">ID</th>
                       <th className="text-left py-3 px-4 font-semibold text-gray-900 dark:text-white">Companies Owned</th>
                     </tr>
                   </thead>
                   <tbody>
-                    {SHARED_OWNERSHIP_DATA.tableData.map((row, index) => (
+                    {(getOwnershipData().tableData || []).map((row, index) => (
                       <tr key={index} className="border-b border-gray-100 dark:border-gray-800 hover:bg-gray-50 dark:hover:bg-gray-800/50">
                         <td className="py-4 px-4">
                           <div className="flex items-center gap-2">
                             <span className="text-purple-500">👤</span>
-                            <span className="font-medium text-gray-900 dark:text-white">{row.person}</span>
+                            <span className="font-medium text-gray-900 dark:text-white">{row.personName || row.person}</span>
                           </div>
                         </td>
                         <td className="py-4 px-4">
                           <code className="font-mono text-sm text-gray-600 dark:text-gray-400 bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">
-                            {row.pan}
+                            {row.personId || row.pan || 'N/A'}
                           </code>
                         </td>
                         <td className="py-4 px-4">
                           <div className="flex flex-wrap gap-2">
-                            {row.companies.map((company, idx) => (
+                            {(row.companies || []).map((company, idx) => (
                               <span
                                 key={idx}
                                 className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400"
                               >
-                                🏢 {company}
+                                🏢 {typeof company === 'object' ? company.companyName : company}
                               </span>
                             ))}
                           </div>
@@ -434,8 +534,8 @@ const Authority = () => {
           <div className="space-y-6">
             <Card hover={false}>
               <NetworkGraph
-                nodes={FINANCIAL_TIES_DATA.nodes}
-                edges={FINANCIAL_TIES_DATA.edges}
+                nodes={getFinancialData().nodes || []}
+                edges={getFinancialData().edges || []}
                 title="Financial Relationships Network"
                 height={450}
               />
@@ -449,20 +549,22 @@ const Authority = () => {
                   Shared Bank Accounts
                 </h3>
                 <div className="space-y-4">
-                  {FINANCIAL_TIES_DATA.bankTableData.map((row, index) => (
+                  {(getFinancialData().tableData?.sharedBankAccounts || getFinancialData().bankTableData || []).map((row, index) => (
                     <div key={index} className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50 border border-gray-200 dark:border-gray-700">
                       <div className="flex items-center gap-2 mb-3">
                         <span className="text-cyan-500">🏦</span>
-                        <span className="font-medium text-gray-900 dark:text-white">{row.bank}</span>
+                        <span className="font-medium text-gray-900 dark:text-white">{row.bank || `Account ${(row.tieId || '').slice(0, 8)}...`}</span>
                       </div>
-                      <p className="text-xs text-gray-500 dark:text-gray-500 mb-2">Account: {row.accountNo}</p>
+                      <p className="text-xs text-gray-500 dark:text-gray-500 mb-2">
+                        {row.accountNo ? `Account: ${row.accountNo}` : `${row.count || row.companies?.length || 0} companies share this account`}
+                      </p>
                       <div className="flex flex-wrap gap-2">
-                        {row.companies.map((company, idx) => (
+                        {(row.companies || []).map((company, idx) => (
                           <span
                             key={idx}
                             className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-cyan-100 text-cyan-700 dark:bg-cyan-900/30 dark:text-cyan-400"
                           >
-                            {company}
+                            {typeof company === 'object' ? company.name : company}
                           </span>
                         ))}
                       </div>
@@ -471,28 +573,30 @@ const Authority = () => {
                 </div>
               </Card>
 
-              {/* Guarantors Table */}
+              {/* Notaries / EMD Accounts Table */}
               <Card hover={false}>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
                   <span className="w-3 h-3 rounded-full bg-pink-500" />
-                  Common Guarantors
+                  Shared Notaries & EMD Accounts
                 </h3>
                 <div className="space-y-4">
-                  {FINANCIAL_TIES_DATA.guarantorTableData.map((row, index) => (
+                  {(getFinancialData().tableData?.sharedNotaries || getFinancialData().guarantorTableData || []).map((row, index) => (
                     <div key={index} className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50 border border-gray-200 dark:border-gray-700">
                       <div className="flex items-center gap-2 mb-2">
                         <span className="text-pink-500">🤝</span>
-                        <span className="font-medium text-gray-900 dark:text-white">{row.guarantor}</span>
+                        <span className="font-medium text-gray-900 dark:text-white">{row.guarantor || `Notary ${row.tieId || 'Unknown'}`}</span>
                       </div>
-                      <p className="text-xs text-gray-500 dark:text-gray-500 mb-3">PAN: {row.pan}</p>
-                      <p className="text-xs text-gray-600 dark:text-gray-400 mb-2">Guarantor for:</p>
+                      <p className="text-xs text-gray-500 dark:text-gray-500 mb-3">
+                        {row.pan ? `PAN: ${row.pan}` : `${row.count || row.companies?.length || 0} companies use this notary`}
+                      </p>
+                      <p className="text-xs text-gray-600 dark:text-gray-400 mb-2">Associated companies:</p>
                       <div className="flex flex-wrap gap-2">
-                        {row.companiesGuaranteed.map((company, idx) => (
+                        {(row.companiesGuaranteed || row.companies || []).map((company, idx) => (
                           <span
                             key={idx}
                             className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-pink-100 text-pink-700 dark:bg-pink-900/30 dark:text-pink-400"
                           >
-                            {company}
+                            {typeof company === 'object' ? company.name : company}
                           </span>
                         ))}
                       </div>
