@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 rounded-lg font-semibold transition-all duration-200 
+           bg-accent-primary text-white hover:bg-blue-600 
+           dark:bg-accent-neon dark:text-black dark:hover:bg-green-400
+           shadow-lg hover:shadow-xl transform hover:-translate-y-0.5;
+  }
+  
+  .btn-secondary {
+    @apply px-6 py-3 rounded-lg font-semibold transition-all duration-200
+           border-2 border-accent-primary text-accent-primary
+           hover:bg-accent-primary hover:text-white
+           dark:border-accent-secondary dark:text-accent-secondary
+           dark:hover:bg-accent-secondary dark:hover:text-black;
+  }
+  
+  .card {
+    @apply bg-light-card dark:bg-dark-card rounded-xl shadow-lg 
+           border border-light-border dark:border-dark-border
+           transition-all duration-200 hover:shadow-xl;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-3 rounded-lg border transition-all duration-200
+           bg-white dark:bg-dark-card
+           border-light-border dark:border-dark-border
+           text-gray-900 dark:text-white
+           placeholder-gray-400 dark:placeholder-gray-500
+           focus:ring-2 focus:ring-accent-primary dark:focus:ring-accent-secondary
+           focus:border-transparent outline-none;
+  }
+  
+  .label {
+    @apply block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2;
+  }
+}
