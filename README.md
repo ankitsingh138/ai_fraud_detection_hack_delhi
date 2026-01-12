@@ -22,17 +22,14 @@ cd ai_fraud_detection_hack_delhi
 ### 2. Start Neo4j (Docker)
 
 ```bash
-docker run -d \
-  --name neo4j \
-  -p 7474:7474 -p 7687:7687 \
-  -e NEO4J_AUTH=neo4j/neo4j_fraud_db \
-  neo4j:latest
+docker run -d --name neo4j -p 7474:7474 -p 7687:7687 -e NEO4J_AUTH=neo4j/neo4j_fraud_db neo4j:latest
 ```
 
 ### 3. Backend Setup
 
 ```bash
 cd backend
+nvm use 18
 cp .env.example .env  # Add your MONGO_URI
 npm install
 npm run seed          # Populate database with sample data

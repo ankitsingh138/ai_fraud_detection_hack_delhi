@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { useAuth } from '../context';
-import { Navbar, Card, Button, Input, Select, Modal } from '../components';
+import { Navbar, Card, Button, Input, Select, Modal, Tabs } from '../components';
 import { DEPARTMENTS } from '../data/mockData';
 import { tenderAPI } from '../services/api';
 
@@ -116,7 +116,16 @@ const Government = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [error, setError] = useState(null);
+  const [statusTab, setStatusTab] = useState('pending_approval');
+  const [editingTender, setEditingTender] = useState(null);
   const cityInputRef = useRef(null);
+
+  const statusTabs = [
+    { id: 'pending_approval', label: '⏳ Pending Approval' },
+    { id: 'active', label: '✓ Active' },
+    { id: 'rejected', label: '✗ Rejected' },
+    { id: 'closed', label: '📁 Closed' },
+  ];
   
   const departmentName = DEPARTMENTS.find(d => d.value === user?.department)?.label || user?.department;
   
@@ -350,24 +359,36 @@ const Government = () => {
                 <p className="text-amber-600 dark:text-amber-400 text-sm">{error}</p>
               </div>
             ) : (
-              <div className="grid grid-cols-3 gap-8 text-center">
+              <div className="grid grid-cols-5 gap-4 text-center">
                 <div>
-                  <p className="text-3xl font-bold text-accent-primary dark:text-accent-secondary">
-                    {departmentTenders.filter(t => t.status === 'active').length}
+                  <p className="text-3xl font-bold text-amber-500">
+                    {departmentTenders.filter(t => t.status === 'pending_approval').length}
                   </p>
-                  <p className="text-sm text-gray-600 dark:text-gray-400">Active Tenders</p>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">Pending Approval</p>
                 </div>
                 <div>
-                  <p className="text-3xl font-bold text-accent-primary dark:text-accent-secondary">
-                    {departmentTenders.filter(t => t.status === 'completed').length}
+                  <p className="text-3xl font-bold text-green-500">
+                    {departmentTenders.filter(t => t.status === 'active').length}
                   </p>
-                  <p className="text-sm text-gray-600 dark:text-gray-400">Completed</p>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">Active</p>
+                </div>
+                <div>
+                  <p className="text-3xl font-bold text-red-500">
+                    {departmentTenders.filter(t => t.status === 'rejected').length}
+                  </p>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">Rejected</p>
+                </div>
+                <div>
+                  <p className="text-3xl font-bold text-gray-500">
+                    {departmentTenders.filter(t => t.status === 'closed').length}
+                  </p>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">Closed</p>
                 </div>
                 <div>
                   <p className="text-3xl font-bold text-accent-primary dark:text-accent-secondary">
                     {departmentTenders.length}
                   </p>
-                  <p className="text-sm text-gray-600 dark:text-gray-400">Total Tenders</p>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">Total</p>
                 </div>
               </div>
             )}
@@ -601,19 +622,19 @@ const Government = () => {
         <Modal
           isOpen={showSuccessModal}
           onClose={handleSuccessClose}
-          title="✅ Tender Published Successfully!"
+          title="✅ Tender Submitted Successfully!"
         >
           <div className="text-center">
-            <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-green-100 dark:bg-green-900/30 flex items-center justify-center">
-              <svg className="w-10 h-10 text-green-600 dark:text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+            <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-amber-100 dark:bg-amber-900/30 flex items-center justify-center">
+              <svg className="w-10 h-10 text-amber-600 dark:text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
             </div>
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-2">
-              Your tender has been published successfully!
+              Your tender has been submitted for approval!
             </p>
             <p className="text-gray-500 dark:text-gray-400">
-              It is now visible to all registered companies and open for bidding.
+              It will be reviewed by the Authority before becoming active for bidding.
             </p>
           </div>
         </Modal>
@@ -621,8 +642,37 @@ const Government = () => {
     );
   }
 
+  // Handle resubmit rejected tender
+  const handleResubmit = async (tender) => {
+    setIsSubmitting(true);
+    setError(null);
+    try {
+      await tenderAPI.resubmit(tender.tenderId, {
+        title: editingTender.title,
+        location: editingTender.location,
+        pincode: editingTender.pincode,
+        estValueInCr: editingTender.estValueInCr,
+        mandatoryConditions: editingTender.mandatoryConditions,
+      });
+      setEditingTender(null);
+      fetchTenders();
+    } catch (err) {
+      console.error('Error resubmitting tender:', err);
+      setError(err.message || 'Failed to resubmit tender');
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
+  // Get filtered tenders by status
+  const getFilteredTenders = () => {
+    return departmentTenders.filter(t => t.status === statusTab);
+  };
+
   // Past Tenders View
   if (currentView === 'past') {
+    const filteredTenders = getFilteredTenders();
+    
     return (
       <div className="min-h-screen bg-light-bg dark:bg-dark-bg relative overflow-hidden">
         {/* Dark mode background decorations */}
@@ -656,11 +706,14 @@ const Government = () => {
             </div>
             <div>
               <h1 className="text-2xl font-bold text-gray-900 dark:text-white">
-                Past Tenders
+                Tender Management
               </h1>
-              <p className="text-gray-600 dark:text-gray-400">{departmentTenders.length} tenders found</p>
+              <p className="text-gray-600 dark:text-gray-400">{departmentTenders.length} total tenders</p>
             </div>
           </div>
+
+          {/* Status Tabs */}
+          <Tabs tabs={statusTabs} activeTab={statusTab} onChange={setStatusTab} />
 
           {isLoading ? (
             <Card>
@@ -684,7 +737,7 @@ const Government = () => {
                 <Button onClick={fetchTenders}>Retry</Button>
               </div>
             </Card>
-          ) : departmentTenders.length === 0 ? (
+          ) : filteredTenders.length === 0 ? (
             <Card>
               <div className="text-center py-16">
                 <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center">
@@ -693,29 +746,43 @@ const Government = () => {
                   </svg>
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
-                  No tenders found
+                  No {statusTab.replace('_', ' ')} tenders
                 </h3>
                 <p className="text-gray-600 dark:text-gray-400 mb-6">
-                  You haven't published any tenders yet.
+                  {statusTab === 'pending_approval' && "No tenders are waiting for approval."}
+                  {statusTab === 'active' && "No tenders are currently active."}
+                  {statusTab === 'rejected' && "No tenders have been rejected."}
+                  {statusTab === 'closed' && "No tenders have been closed yet."}
                 </p>
-                <Button onClick={() => setCurrentView('publish')}>
-                  Publish Your First Tender
-                </Button>
+                {departmentTenders.length === 0 && (
+                  <Button onClick={() => setCurrentView('publish')}>
+                    Publish Your First Tender
+                  </Button>
+                )}
               </div>
             </Card>
           ) : (
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {departmentTenders.map((tender) => (
+              {filteredTenders.map((tender) => (
                 <Card key={tender.tenderId || tender._id} className="flex flex-col">
                   {/* Status Badge */}
                   <div className="flex items-center justify-between mb-4">
                     <span className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold ${
                       tender.status === 'active' 
                         ? 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400'
-                        : 'bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-400'
+                        : tender.status === 'pending_approval'
+                          ? 'bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400'
+                          : tender.status === 'rejected'
+                            ? 'bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400'
+                            : 'bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-400'
                     }`}>
-                      <span className={`w-2 h-2 rounded-full ${tender.status === 'active' ? 'bg-green-500 animate-pulse' : 'bg-gray-400'}`} />
-                      {tender.status?.charAt(0).toUpperCase() + tender.status?.slice(1)}
+                      <span className={`w-2 h-2 rounded-full ${
+                        tender.status === 'active' ? 'bg-green-500 animate-pulse' 
+                        : tender.status === 'pending_approval' ? 'bg-amber-500'
+                        : tender.status === 'rejected' ? 'bg-red-500'
+                        : 'bg-gray-400'
+                      }`} />
+                      {tender.status === 'pending_approval' ? 'Pending' : tender.status?.charAt(0).toUpperCase() + tender.status?.slice(1)}
                     </span>
                     <span className="text-xs text-gray-500 dark:text-gray-500 font-mono">
                       {tender.tenderId}
@@ -726,6 +793,14 @@ const Government = () => {
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2 line-clamp-2">
                     {tender.title || `${tender.deptName} Tender`}
                   </h3>
+
+                  {/* Rejection Reason (if rejected) */}
+                  {tender.status === 'rejected' && tender.rejectionReason && (
+                    <div className="mb-3 p-3 rounded-lg bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800">
+                      <p className="text-xs font-semibold text-red-700 dark:text-red-400 mb-1">Rejection Reason:</p>
+                      <p className="text-sm text-red-600 dark:text-red-300">{tender.rejectionReason}</p>
+                    </div>
+                  )}
 
                   {/* Details */}
                   <div className="space-y-2 text-sm text-gray-600 dark:text-gray-400 mb-4 flex-1">
@@ -746,7 +821,7 @@ const Government = () => {
 
                   {/* Footer */}
                   <div className="pt-4 border-t border-gray-200 dark:border-gray-700">
-                    <div className="flex items-center justify-between">
+                    <div className="flex items-center justify-between mb-3">
                       <div>
                         <p className="text-2xl font-bold text-gray-900 dark:text-white">
                           ₹{tender.estValueInCr} Cr
@@ -757,12 +832,113 @@ const Government = () => {
                         <p className="text-xs text-gray-500 dark:text-gray-500 font-mono">{tender.deptName}</p>
                       </div>
                     </div>
+
+                    {/* Edit & Resubmit button for rejected tenders */}
+                    {tender.status === 'rejected' && (
+                      <Button
+                        onClick={() => setEditingTender({
+                          ...tender,
+                          mandatoryConditions: '',
+                        })}
+                        className="w-full mt-2"
+                      >
+                        Edit & Resubmit
+                      </Button>
+                    )}
                   </div>
                 </Card>
               ))}
             </div>
           )}
         </main>
+
+        {/* Edit & Resubmit Modal */}
+        {editingTender && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4">
+            <div className="bg-white dark:bg-gray-900 rounded-2xl p-6 w-full max-w-2xl max-h-[90vh] overflow-y-auto shadow-2xl">
+              <div className="flex items-center justify-between mb-6">
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
+                  Edit & Resubmit Tender
+                </h3>
+                <button
+                  onClick={() => setEditingTender(null)}
+                  className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800"
+                >
+                  <svg className="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
+
+              {/* Show rejection reason */}
+              <div className="mb-6 p-4 rounded-lg bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800">
+                <p className="text-sm font-semibold text-red-700 dark:text-red-400 mb-1">Original Rejection Reason:</p>
+                <p className="text-red-600 dark:text-red-300">{editingTender.rejectionReason}</p>
+              </div>
+
+              <div className="space-y-4">
+                <div>
+                  <label className="label">Tender ID</label>
+                  <p className="font-mono text-gray-900 dark:text-white">{editingTender.tenderId}</p>
+                </div>
+
+                <Input
+                  label="Tender Title"
+                  value={editingTender.title || ''}
+                  onChange={(e) => setEditingTender({ ...editingTender, title: e.target.value })}
+                />
+
+                <div className="grid md:grid-cols-2 gap-4">
+                  <Input
+                    label="Location"
+                    value={editingTender.location || ''}
+                    onChange={(e) => setEditingTender({ ...editingTender, location: e.target.value })}
+                  />
+                  <Input
+                    label="Pincode"
+                    value={editingTender.pincode || ''}
+                    onChange={(e) => setEditingTender({ ...editingTender, pincode: e.target.value })}
+                  />
+                </div>
+
+                <Input
+                  label="Estimated Value (in Crores)"
+                  value={editingTender.estValueInCr || ''}
+                  onChange={(e) => setEditingTender({ ...editingTender, estValueInCr: e.target.value })}
+                />
+
+                <div>
+                  <label className="label">Updated Mandatory Conditions</label>
+                  <textarea
+                    value={editingTender.mandatoryConditions || ''}
+                    onChange={(e) => setEditingTender({ ...editingTender, mandatoryConditions: e.target.value })}
+                    placeholder="Enter updated mandatory conditions..."
+                    rows={4}
+                    className="input-field resize-none"
+                  />
+                </div>
+
+                <div className="flex gap-3 pt-4">
+                  <Button
+                    variant="secondary"
+                    onClick={() => setEditingTender(null)}
+                    className="flex-1"
+                    disabled={isSubmitting}
+                  >
+                    Cancel
+                  </Button>
+                  <Button
+                    onClick={() => handleResubmit(editingTender)}
+                    className="flex-1"
+                    disabled={isSubmitting}
+                  >
+                    {isSubmitting ? 'Submitting...' : 'Resubmit for Approval'}
+                  </Button>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     );
   }

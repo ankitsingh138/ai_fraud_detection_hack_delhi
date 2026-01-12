@@ -6,13 +6,17 @@ import {
   getFinancialTies,
   analyzeTenders,
   getTailoredClauses,
-  getFraudSummary
+  getFraudSummary,
+  checkTender
 } from "../controllers/fraud.controller.js";
 
 const router = express.Router();
 
 // Get fraud detection summary
 router.get("/summary", getFraudSummary);
+
+// Check specific tender for all fraud indicators
+router.get("/check-tender/:tenderId", checkTender);
 
 // Address collusion - companies at same address
 router.get("/address-collusion", getAddressCollusion);

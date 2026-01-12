@@ -98,7 +98,7 @@ def audit_tenders_hybrid(file_path, force_reprocess=False):
     # Save back to the same file
     df.to_csv(file_path, index=False)
     print(f"Update Complete. Saved to {file_path}")
-    
+
     # Print summary
     high_risk = df[df['restrictiveness_score'] >= 0.8]
     print(f"\n=== Summary ===")

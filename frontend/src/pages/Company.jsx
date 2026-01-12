@@ -95,9 +95,9 @@ const Company = () => {
       const result = await bidAPI.create(bidPayload);
       console.log('Bid created:', result);
       
-      setShowBidForm(false);
-      setShowSuccessModal(true);
-      setSelectedTender(null);
+    setShowBidForm(false);
+    setShowSuccessModal(true);
+    setSelectedTender(null);
       
       // Refresh bids list
       fetchCompanyBids();
@@ -177,54 +177,54 @@ const Company = () => {
                 </div>
               </Card>
             ) : (
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {activeTenders.map((tender) => (
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {activeTenders.map((tender) => (
                   <Card key={tender.tenderId || tender._id} className="flex flex-col">
-                    <div className="flex items-start justify-between mb-4">
-                      <span className="px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400">
-                        Active
-                      </span>
-                      <span className="text-sm text-gray-500 dark:text-gray-400">
+                <div className="flex items-start justify-between mb-4">
+                  <span className="px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400">
+                    Active
+                  </span>
+                  <span className="text-sm text-gray-500 dark:text-gray-400">
                         {tender.deptName}
-                      </span>
-                    </div>
-                    
-                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2 line-clamp-2">
+                  </span>
+                </div>
+                
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2 line-clamp-2">
                       {tender.title || `${tender.deptName} Tender`}
-                    </h3>
-                    
-                    <div className="space-y-2 text-sm text-gray-600 dark:text-gray-400 mb-4 flex-1">
-                      <p className="flex items-center gap-2">
-                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                        </svg>
-                        {tender.location} - {tender.pincode}
-                      </p>
-                      <p className="flex items-center gap-2">
-                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                        </svg>
+                </h3>
+                
+                <div className="space-y-2 text-sm text-gray-600 dark:text-gray-400 mb-4 flex-1">
+                  <p className="flex items-center gap-2">
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    {tender.location} - {tender.pincode}
+                  </p>
+                  <p className="flex items-center gap-2">
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    </svg>
                         Published: {new Date(tender.publishDate).toLocaleDateString()}
-                      </p>
-                    </div>
-                    
-                    <div className="pt-4 border-t border-light-border dark:border-dark-border">
-                      <div className="flex items-center justify-between mb-4">
-                        <span className="text-2xl font-bold text-accent-primary dark:text-accent-secondary">
+                  </p>
+                </div>
+                
+                <div className="pt-4 border-t border-light-border dark:border-dark-border">
+                  <div className="flex items-center justify-between mb-4">
+                    <span className="text-2xl font-bold text-accent-primary dark:text-accent-secondary">
                           ₹{tender.estValueInCr} Cr
-                        </span>
+                    </span>
                         <span className="text-xs text-gray-500 dark:text-gray-400 font-mono">
                           {tender.tenderId}
-                        </span>
-                      </div>
-                      <Button fullWidth onClick={() => handleMakeBid(tender)}>
-                        Make a Bid
-                      </Button>
-                    </div>
-                  </Card>
-                ))}
-              </div>
+                    </span>
+                  </div>
+                  <Button fullWidth onClick={() => handleMakeBid(tender)}>
+                    Make a Bid
+                  </Button>
+                </div>
+              </Card>
+            ))}
+          </div>
             )}
           </>
         )}
@@ -248,17 +248,17 @@ const Company = () => {
             ) : (
               companyBids.map((bid) => (
                 <Card key={bid.bidId || bid._id} hover={false}>
-                  <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
-                    <div className="flex-1">
-                      <div className="flex items-center gap-3 mb-2">
-                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                    <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                      <div className="flex-1">
+                        <div className="flex items-center gap-3 mb-2">
+                          <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                           {bid.tender?.title || bid.tenderId}
-                        </h3>
+                          </h3>
                         {bid.status === 'winner' && (
-                          <span className="px-3 py-1 rounded-full text-xs font-medium bg-accent-success/20 text-accent-success">
-                            🏆 Won
-                          </span>
-                        )}
+                            <span className="px-3 py-1 rounded-full text-xs font-medium bg-accent-success/20 text-accent-success">
+                              🏆 Won
+                            </span>
+                          )}
                         <span className={`px-2 py-0.5 rounded text-xs font-medium ${
                           bid.status === 'pending' ? 'bg-yellow-100 text-yellow-700 dark:bg-yellow-900/30 dark:text-yellow-400' :
                           bid.status === 'accepted' ? 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400' :
@@ -266,18 +266,18 @@ const Company = () => {
                         }`}>
                           {bid.status}
                         </span>
-                      </div>
-                      <p className="text-sm text-gray-600 dark:text-gray-400">
+                        </div>
+                        <p className="text-sm text-gray-600 dark:text-gray-400">
                         {bid.tender?.location || 'N/A'} • Bid on {new Date(bid.bidDate).toLocaleDateString()}
-                      </p>
-                    </div>
-                    <div className="flex items-center gap-6">
-                      <div className="text-right">
-                        <p className="text-sm text-gray-500 dark:text-gray-400">Your Bid</p>
-                        <p className="text-xl font-bold text-gray-900 dark:text-white">
-                          ₹{(bid.bidAmount / 100).toFixed(2)} Cr
                         </p>
                       </div>
+                      <div className="flex items-center gap-6">
+                        <div className="text-right">
+                          <p className="text-sm text-gray-500 dark:text-gray-400">Your Bid</p>
+                          <p className="text-xl font-bold text-gray-900 dark:text-white">
+                          ₹{(bid.bidAmount / 100).toFixed(2)} Cr
+                          </p>
+                        </div>
                       {bid.tender && (
                         <div className="text-right">
                           <p className="text-sm text-gray-500 dark:text-gray-400">Estimated</p>
@@ -286,9 +286,9 @@ const Company = () => {
                           </p>
                         </div>
                       )}
+                      </div>
                     </div>
-                  </div>
-                </Card>
+                  </Card>
               ))
             )}
           </div>

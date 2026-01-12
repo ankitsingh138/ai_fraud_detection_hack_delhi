@@ -11,7 +11,14 @@ const tenderSchema = new mongoose.Schema({
   estValueInCr: { type: Number, required: true },
   publishDate: { type: Date, required: true },
   closingDate: { type: Date },
-  status: { type: String, enum: ['active', 'closed', 'completed', 'cancelled'], default: 'active' }
+  status: { 
+    type: String, 
+    enum: ['pending_approval', 'active', 'rejected', 'closed', 'completed', 'cancelled'], 
+    default: 'pending_approval' 
+  },
+  rejectionReason: { type: String },
+  reviewedBy: { type: String },
+  reviewedAt: { type: Date }
 }, { timestamps: true });
 
 export default mongoose.model("Tender", tenderSchema);

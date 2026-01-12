@@ -400,7 +400,7 @@ export const getSharedOwnershipGraph = async () => {
             label: company.companyName || 'Unknown'
           });
           seenNodes.add(company.companyId);
-        }
+    }
         edges.push({ source: personNodeId, target: company.companyId });
       });
     });

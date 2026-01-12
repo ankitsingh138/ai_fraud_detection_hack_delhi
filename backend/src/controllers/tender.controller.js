@@ -35,7 +35,7 @@ export const createTender = async (req, res) => {
       estValueInCr: parseFloat(estValueInCr),
       publishDate: publishDate || new Date(),
       closingDate,
-      status: 'active'
+      status: 'pending_approval'
     });
 
     await tender.save();
@@ -128,6 +128,118 @@ export const updateTenderStatus = async (req, res) => {
 
     res.json({ message: "Tender status updated", tender });
   } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+};
+
+// Approve tender (Authority action)
+export const approveTender = async (req, res) => {
+  try {
+    const { tenderId } = req.params;
+    const { reviewedBy } = req.body;
+
+    const tender = await Tender.findOne({ tenderId });
+    if (!tender) {
+      return res.status(404).json({ error: "Tender not found" });
+    }
+
+    if (tender.status !== 'pending_approval') {
+      return res.status(400).json({ error: "Tender is not pending approval" });
+    }
+
+    tender.status = 'active';
+    tender.reviewedBy = reviewedBy || 'Authority';
+    tender.reviewedAt = new Date();
+    tender.rejectionReason = null;
+    await tender.save();
+
+    // Sync to Neo4j
+    try {
+      await syncTendersToGraph();
+    } catch (neo4jErr) {
+      console.error("Neo4j sync error:", neo4jErr.message);
+    }
+
+    res.json({ message: "Tender approved successfully", tender });
+  } catch (error) {
+    console.error("Approve tender error:", error);
+    res.status(500).json({ error: error.message });
+  }
+};
+
+// Reject tender (Authority action)
+export const rejectTender = async (req, res) => {
+  try {
+    const { tenderId } = req.params;
+    const { rejectionReason, reviewedBy } = req.body;
+
+    if (!rejectionReason) {
+      return res.status(400).json({ error: "Rejection reason is required" });
+    }
+
+    const tender = await Tender.findOne({ tenderId });
+    if (!tender) {
+      return res.status(404).json({ error: "Tender not found" });
+    }
+
+    if (tender.status !== 'pending_approval') {
+      return res.status(400).json({ error: "Tender is not pending approval" });
+    }
+
+    tender.status = 'rejected';
+    tender.rejectionReason = rejectionReason;
+    tender.reviewedBy = reviewedBy || 'Authority';
+    tender.reviewedAt = new Date();
+    await tender.save();
+
+    res.json({ message: "Tender rejected", tender });
+  } catch (error) {
+    console.error("Reject tender error:", error);
+    res.status(500).json({ error: error.message });
+  }
+};
+
+// Resubmit rejected tender (Government action)
+export const resubmitTender = async (req, res) => {
+  try {
+    const { tenderId } = req.params;
+    const { title, location, pincode, estValueInCr, closingDate, mandatoryConditions } = req.body;
+
+    const tender = await Tender.findOne({ tenderId });
+    if (!tender) {
+      return res.status(404).json({ error: "Tender not found" });
+    }
+
+    if (tender.status !== 'rejected') {
+      return res.status(400).json({ error: "Only rejected tenders can be resubmitted" });
+    }
+
+    // Update tender fields if provided
+    if (title) tender.title = title;
+    if (location) tender.location = location;
+    if (pincode) tender.pincode = pincode;
+    if (estValueInCr) tender.estValueInCr = parseFloat(estValueInCr);
+    if (closingDate) tender.closingDate = closingDate;
+    
+    // Reset to pending approval
+    tender.status = 'pending_approval';
+    tender.rejectionReason = null;
+    tender.reviewedBy = null;
+    tender.reviewedAt = null;
+    await tender.save();
+
+    // Update specifications if provided
+    if (mandatoryConditions) {
+      await TenderSpecification.updateOne(
+        { tenderId },
+        { requirementText: mandatoryConditions, restrictiveness_score: null },
+        { upsert: true }
+      );
+    }
+
+    res.json({ message: "Tender resubmitted for approval", tender });
+  } catch (error) {
+    console.error("Resubmit tender error:", error);
     res.status(500).json({ error: error.message });
   }
 };
