@@ -1,702 +1,708 @@
 tender_id,requirement_text,is_mandatory,restrictiveness_score
-UADD-2024-001,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-MPMKVV-2024-001,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PHED-2024-001,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PWD-2024-001,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-PHED-2024-002,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PWD-2024-002,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-WRD-2024-001,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-UADD-2024-002,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPRDC-2024-001,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPMKVV-2024-002,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-PWD-2024-003,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-UADD-2024-003,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-PWD-2024-004,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-PWD-2024-005,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-MPMKVV-2024-003,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-MPMKVV-2024-004,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-PHED-2024-003,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPRDC-2024-002,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-UADD-2024-004,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-MPMKVV-2024-005,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-MPMKVV-2024-006,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPRDC-2024-003,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-MPMKVV-2024-007,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-MPRDC-2024-004,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PWD-2024-006,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-MPRDC-2024-005,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-WRD-2024-002,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-MPRDC-2024-006,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-MPRDC-2024-007,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-MPMKVV-2024-008,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-WRD-2024-003,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-PHED-2024-004,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-PHED-2024-005,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-WRD-2024-004,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-WRD-2024-005,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-PWD-2024-007,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-PHED-2024-006,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-MPMKVV-2024-009,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-PWD-2024-008,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-WRD-2024-006,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-MPRDC-2024-008,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PWD-2024-009,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-UADD-2024-005,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-WRD-2024-007,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-UADD-2024-006,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PHED-2024-007,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-UADD-2024-007,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-WRD-2024-008,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PHED-2024-008,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-MPMKVV-2024-010,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PHED-2024-009,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-MPRDC-2024-009,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-MPMKVV-2024-011,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-WRD-2024-009,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-PWD-2024-010,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-PWD-2024-011,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-MPMKVV-2024-012,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-UADD-2024-008,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-MPMKVV-2024-013,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-PWD-2024-012,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-MPMKVV-2024-014,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-PHED-2024-010,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-WRD-2024-010,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-PHED-2024-011,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-MPMKVV-2024-015,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-MPRDC-2024-010,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-WRD-2024-011,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-UADD-2024-009,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-WRD-2024-012,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPMKVV-2024-016,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-UADD-2024-010,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-UADD-2024-011,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-WRD-2024-013,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-WRD-2024-014,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-UADD-2024-012,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-MPMKVV-2024-017,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-PWD-2024-013,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PWD-2024-014,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-UADD-2024-013,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-MPMKVV-2024-018,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-MPMKVV-2024-019,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-WRD-2024-015,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-MPRDC-2024-011,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPMKVV-2024-020,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-WRD-2024-016,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-PHED-2024-012,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-UADD-2024-014,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PWD-2024-015,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-PHED-2024-013,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-PHED-2024-014,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-MPMKVV-2024-021,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-MPRDC-2024-012,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-UADD-2024-015,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPMKVV-2024-022,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-WRD-2024-017,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PWD-2024-016,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-MPMKVV-2024-023,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-PWD-2024-017,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPRDC-2024-013,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPMKVV-2024-024,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-MPRDC-2024-014,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-UADD-2024-016,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-WRD-2024-018,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-MPRDC-2024-015,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-PWD-2024-018,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-PHED-2024-015,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-UADD-2024-017,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-PWD-2024-019,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-WRD-2024-019,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-MPRDC-2024-016,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PHED-2024-016,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-WRD-2024-020,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-UADD-2024-018,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-MPMKVV-2024-025,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-WRD-2024-021,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-PWD-2024-020,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-UADD-2024-019,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-MPRDC-2024-017,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-WRD-2024-022,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-UADD-2024-020,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-UADD-2024-021,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-PHED-2024-017,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-UADD-2024-022,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-WRD-2024-023,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-PHED-2024-018,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-MPRDC-2024-018,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-MPRDC-2024-019,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-PWD-2024-021,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-MPMKVV-2024-026,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PHED-2024-019,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-UADD-2024-023,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PWD-2024-022,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-MPRDC-2024-020,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-PWD-2024-023,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-UADD-2024-024,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-MPRDC-2024-021,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-MPMKVV-2024-027,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PWD-2024-024,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-PWD-2024-025,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-MPMKVV-2024-028,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-UADD-2024-025,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-MPRDC-2024-022,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-MPMKVV-2024-029,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PWD-2024-026,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-MPRDC-2024-023,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-MPRDC-2024-024,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-UADD-2024-026,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-MPRDC-2024-025,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-PHED-2024-020,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-MPMKVV-2024-030,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-MPMKVV-2024-031,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-MPRDC-2024-026,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-PHED-2024-021,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-WRD-2024-024,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-MPMKVV-2024-032,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-MPMKVV-2024-033,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-UADD-2024-027,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-MPRDC-2024-027,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-MPRDC-2024-028,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PWD-2024-027,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-UADD-2024-028,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PWD-2024-028,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-PWD-2024-029,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-PWD-2024-030,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PWD-2024-031,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-WRD-2024-025,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-PHED-2024-022,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-UADD-2024-029,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPRDC-2024-029,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-MPMKVV-2024-034,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPMKVV-2024-035,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-MPMKVV-2024-036,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-PHED-2024-023,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-UADD-2024-030,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-MPMKVV-2024-037,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-PHED-2024-024,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-UADD-2024-031,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-PHED-2024-025,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-MPRDC-2024-030,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-PHED-2024-026,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-WRD-2024-026,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-WRD-2024-027,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PHED-2024-027,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-MPMKVV-2024-038,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-MPRDC-2024-031,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-MPRDC-2024-032,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-PWD-2024-032,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-MPRDC-2024-033,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-WRD-2024-028,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-MPRDC-2024-034,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-UADD-2024-032,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-WRD-2024-029,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-MPRDC-2024-035,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-WRD-2024-030,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-PHED-2024-028,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-PHED-2024-029,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-MPMKVV-2024-039,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PHED-2024-030,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-WRD-2024-031,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-PHED-2024-031,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPRDC-2024-036,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-MPMKVV-2024-040,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-WRD-2024-032,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-UADD-2024-033,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-PHED-2024-032,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-UADD-2024-034,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-PWD-2024-033,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-MPRDC-2024-037,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-PWD-2024-034,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-WRD-2024-033,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-PWD-2024-035,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-WRD-2024-034,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-MPMKVV-2024-041,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PHED-2024-033,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-MPMKVV-2024-042,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-MPRDC-2024-038,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-UADD-2024-035,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-PHED-2024-034,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-PHED-2024-035,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PWD-2024-036,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-WRD-2024-035,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PHED-2024-036,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-PWD-2024-037,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-PHED-2024-037,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-PWD-2024-038,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PWD-2024-039,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-PHED-2024-038,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-PWD-2024-040,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PHED-2024-039,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-PHED-2024-040,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-MPRDC-2024-039,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-MPRDC-2024-040,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-PHED-2024-041,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-UADD-2024-036,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPRDC-2024-041,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-PHED-2024-042,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PWD-2024-041,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-UADD-2024-037,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-UADD-2024-038,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-MPRDC-2024-042,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPRDC-2024-043,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-WRD-2024-036,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PHED-2024-043,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-WRD-2024-037,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-WRD-2024-038,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-MPMKVV-2024-043,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-WRD-2024-039,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-PWD-2024-042,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-PWD-2024-043,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-WRD-2024-040,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-WRD-2024-041,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-UADD-2024-039,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-UADD-2024-040,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-PHED-2024-044,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-MPRDC-2024-044,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-WRD-2024-042,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-MPMKVV-2024-044,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-PWD-2024-044,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-WRD-2024-043,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-MPRDC-2024-045,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-WRD-2024-044,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-UADD-2024-041,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-MPRDC-2024-046,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPRDC-2024-047,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-UADD-2024-042,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-UADD-2024-043,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-MPMKVV-2024-045,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-MPMKVV-2024-046,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-PHED-2024-045,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-UADD-2024-044,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-WRD-2024-045,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-MPRDC-2024-048,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-PHED-2024-046,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-MPMKVV-2024-047,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-MPMKVV-2024-048,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-MPMKVV-2024-049,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-PWD-2024-045,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-UADD-2024-045,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PHED-2024-047,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-PHED-2024-048,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-UADD-2024-046,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-UADD-2024-047,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PHED-2024-049,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-PWD-2024-046,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PWD-2024-047,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPRDC-2024-049,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-WRD-2024-046,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-PHED-2024-050,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-WRD-2024-047,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-MPMKVV-2024-050,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPMKVV-2024-051,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-UADD-2024-048,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-PHED-2024-051,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPRDC-2024-050,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PHED-2024-052,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-MPMKVV-2024-052,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-PWD-2024-048,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-UADD-2024-049,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-PHED-2024-053,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PWD-2024-049,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-PHED-2024-054,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-MPMKVV-2024-053,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-MPMKVV-2024-054,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-MPMKVV-2024-055,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-WRD-2024-048,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-UADD-2024-050,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-MPMKVV-2024-056,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-MPMKVV-2024-057,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPMKVV-2024-058,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-WRD-2024-049,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-UADD-2024-051,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PWD-2024-050,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-MPMKVV-2024-059,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-PWD-2024-051,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PWD-2024-052,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-PWD-2024-053,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-UADD-2024-052,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-MPMKVV-2024-060,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PHED-2024-055,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-MPMKVV-2024-061,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PHED-2024-056,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-MPRDC-2024-051,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-MPMKVV-2024-062,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-MPMKVV-2024-063,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-MPMKVV-2024-064,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-PHED-2024-057,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-UADD-2024-053,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-WRD-2024-050,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-WRD-2024-051,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PWD-2024-054,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-MPMKVV-2024-065,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-MPRDC-2024-052,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-PHED-2024-058,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-UADD-2024-054,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-PHED-2024-059,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-MPMKVV-2024-066,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-PWD-2024-055,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-UADD-2024-055,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-UADD-2024-056,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-PWD-2024-056,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-PWD-2024-057,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PWD-2024-058,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-PHED-2024-060,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-PHED-2024-061,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-UADD-2024-057,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-PHED-2024-062,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-MPMKVV-2024-067,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PWD-2024-059,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-MPRDC-2024-053,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-PHED-2024-063,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-PWD-2024-060,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-PHED-2024-064,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-WRD-2024-052,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPRDC-2024-054,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PHED-2024-065,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-MPRDC-2024-055,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-WRD-2024-053,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-MPRDC-2024-056,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-WRD-2024-054,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-WRD-2024-055,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-MPMKVV-2024-068,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-WRD-2024-056,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-WRD-2024-057,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-WRD-2024-058,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-MPMKVV-2024-069,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-WRD-2024-059,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PWD-2024-061,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-PWD-2024-062,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-PWD-2024-063,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-MPMKVV-2024-070,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-WRD-2024-060,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-WRD-2024-061,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPRDC-2024-057,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-PWD-2024-064,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-MPRDC-2024-058,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-MPRDC-2024-059,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-MPMKVV-2024-071,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPMKVV-2024-072,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-MPRDC-2024-060,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-UADD-2024-058,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-UADD-2024-059,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-PHED-2024-066,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-MPMKVV-2024-073,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-PHED-2024-067,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PHED-2024-068,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-PWD-2024-065,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPMKVV-2024-074,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPRDC-2024-061,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-MPMKVV-2024-075,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-MPRDC-2024-062,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-WRD-2024-062,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-PHED-2024-069,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-MPRDC-2024-063,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-MPRDC-2024-064,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-PWD-2024-066,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-UADD-2024-060,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-MPMKVV-2024-076,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-UADD-2024-061,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-UADD-2024-062,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-UADD-2025-001,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-UADD-2025-002,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PWD-2025-001,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-PHED-2025-001,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-MPMKVV-2025-001,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-MPMKVV-2025-002,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPRDC-2025-001,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-UADD-2025-003,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-WRD-2025-001,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-MPRDC-2025-002,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-WRD-2025-002,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PWD-2025-002,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PWD-2025-003,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-MPMKVV-2025-003,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-MPMKVV-2025-004,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-MPRDC-2025-003,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-UADD-2025-004,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-UADD-2025-005,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-UADD-2025-006,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-PHED-2025-002,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPMKVV-2025-005,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PHED-2025-003,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-WRD-2025-003,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PWD-2025-004,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PHED-2025-004,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-UADD-2025-007,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PHED-2025-005,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-WRD-2025-004,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-PHED-2025-006,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-WRD-2025-005,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-PHED-2025-007,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-MPRDC-2025-004,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-WRD-2025-006,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-PWD-2025-005,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-PHED-2025-008,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-UADD-2025-008,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-PWD-2025-006,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-PHED-2025-009,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-MPMKVV-2025-006,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-PWD-2025-007,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-WRD-2025-007,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPRDC-2025-005,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PHED-2025-010,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-PHED-2025-011,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-PHED-2025-012,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-PHED-2025-013,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-WRD-2025-008,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-MPMKVV-2025-007,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-WRD-2025-009,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-PHED-2025-014,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-UADD-2025-009,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-WRD-2025-010,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-PHED-2025-015,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-UADD-2025-010,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-MPRDC-2025-006,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-UADD-2025-011,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-UADD-2025-012,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-UADD-2025-013,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-MPMKVV-2025-008,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-MPMKVV-2025-009,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPRDC-2025-007,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-MPMKVV-2025-010,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-PWD-2025-008,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-PWD-2025-009,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-UADD-2025-014,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PHED-2025-016,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-UADD-2025-015,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-UADD-2025-016,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-PHED-2025-017,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-WRD-2025-011,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-PHED-2025-018,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-UADD-2025-017,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-MPMKVV-2025-011,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-MPMKVV-2025-012,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-UADD-2025-018,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-PWD-2025-010,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-WRD-2025-012,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-WRD-2025-013,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-MPMKVV-2025-013,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-MPRDC-2025-008,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPMKVV-2025-014,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-UADD-2025-019,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-PHED-2025-019,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-UADD-2025-020,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-PHED-2025-020,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-PHED-2025-021,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-UADD-2025-021,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPMKVV-2025-015,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-PWD-2025-011,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-UADD-2025-022,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-PHED-2025-022,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-PWD-2025-012,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPRDC-2025-009,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-WRD-2025-014,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-MPMKVV-2025-016,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PHED-2025-023,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-UADD-2025-023,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-MPMKVV-2025-017,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-MPRDC-2025-010,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-PWD-2025-013,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-PHED-2025-024,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-WRD-2025-015,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-UADD-2025-024,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-PWD-2025-014,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PHED-2025-025,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-UADD-2025-025,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-WRD-2025-016,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPRDC-2025-011,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-WRD-2025-017,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-WRD-2025-018,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-UADD-2025-026,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-UADD-2025-027,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-PHED-2025-026,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PWD-2025-015,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-UADD-2025-028,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-UADD-2025-029,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-UADD-2025-030,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPRDC-2025-012,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-PHED-2025-027,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-WRD-2025-019,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-MPRDC-2025-013,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-PWD-2025-016,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-PHED-2025-028,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PWD-2025-017,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-UADD-2025-031,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PHED-2025-029,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-UADD-2025-032,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-MPRDC-2025-014,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-UADD-2025-033,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-MPMKVV-2025-018,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-PWD-2025-018,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-UADD-2025-034,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PWD-2025-019,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-MPRDC-2025-015,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-MPMKVV-2025-019,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPMKVV-2025-020,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-UADD-2025-035,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-PHED-2025-030,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-PWD-2025-020,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-WRD-2025-020,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-WRD-2025-021,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-WRD-2025-022,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-UADD-2025-036,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-MPRDC-2025-016,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-UADD-2025-037,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-PHED-2025-031,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-UADD-2025-038,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-WRD-2025-023,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-MPRDC-2025-017,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-WRD-2025-024,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-UADD-2025-039,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-UADD-2025-040,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-WRD-2025-025,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-WRD-2025-026,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-MPRDC-2025-018,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-MPRDC-2025-019,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-UADD-2025-041,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-MPRDC-2025-020,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-WRD-2025-027,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PWD-2025-021,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-WRD-2025-028,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-UADD-2025-042,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-PHED-2025-032,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-WRD-2025-029,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PHED-2025-033,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-UADD-2025-043,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-MPMKVV-2025-021,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-PWD-2025-022,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-UADD-2025-044,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-PHED-2025-034,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-PWD-2025-023,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-PWD-2025-024,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-UADD-2025-045,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-UADD-2025-046,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PWD-2025-025,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-MPMKVV-2025-022,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-PWD-2025-026,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-MPRDC-2025-021,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-PHED-2025-035,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-WRD-2025-030,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-MPRDC-2025-022,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-PHED-2025-036,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-UADD-2025-047,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-MPMKVV-2025-023,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-PHED-2025-037,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-WRD-2025-031,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-UADD-2025-048,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-MPRDC-2025-023,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-PWD-2025-027,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-MPMKVV-2025-024,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-MPMKVV-2025-025,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-UADD-2025-049,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PHED-2025-038,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-PHED-2025-039,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-UADD-2025-050,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-MPMKVV-2025-026,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-PWD-2025-028,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PWD-2025-029,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-UADD-2025-051,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-MPRDC-2025-024,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PWD-2025-030,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-MPRDC-2025-025,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-MPRDC-2025-026,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-PWD-2025-031,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-PHED-2025-040,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-MPRDC-2025-027,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PWD-2025-032,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PWD-2025-033,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-MPRDC-2025-028,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-MPMKVV-2025-027,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PWD-2025-034,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-PWD-2025-035,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-PHED-2025-041,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-WRD-2025-032,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-PHED-2025-042,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PHED-2025-043,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-WRD-2025-033,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-PWD-2025-036,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-PWD-2025-037,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-MPMKVV-2025-028,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-MPRDC-2025-029,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-WRD-2025-034,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-WRD-2025-035,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-UADD-2025-052,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-MPMKVV-2025-029,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-MPRDC-2025-030,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-PWD-2025-038,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-PHED-2025-044,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-MPMKVV-2025-030,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-MPRDC-2025-031,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPMKVV-2025-031,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-WRD-2025-036,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-UADD-2025-053,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-MPMKVV-2025-032,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PHED-2025-045,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-MPMKVV-2025-033,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-PHED-2025-046,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-MPRDC-2025-032,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-UADD-2025-054,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPMKVV-2025-034,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-PHED-2025-047,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-WRD-2025-037,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-WRD-2025-038,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-MPMKVV-2025-035,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-MPRDC-2025-033,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-MPMKVV-2025-036,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPMKVV-2025-037,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-WRD-2025-039,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-PWD-2025-039,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PHED-2025-048,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-PWD-2025-040,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-PWD-2025-041,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-PHED-2025-049,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-PHED-2025-050,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-PWD-2025-042,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPMKVV-2025-038,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-PHED-2025-051,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-MPRDC-2025-034,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PWD-2025-043,Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.,1,0.7186
-MPMKVV-2025-039,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-PWD-2025-044,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPMKVV-2025-040,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-UADD-2025-055,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-PHED-2025-052,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PWD-2025-045,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-MPMKVV-2025-041,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-WRD-2025-040,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PHED-2025-053,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-PWD-2025-046,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-MPMKVV-2025-042,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-WRD-2025-041,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-MPMKVV-2025-043,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPMKVV-2025-044,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PHED-2025-054,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-PWD-2025-047,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPRDC-2025-035,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-UADD-2025-056,The technical partner must be registered within a 5km radius of the project site office.,1,0.8613
-MPMKVV-2025-045,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-MPRDC-2025-036,Bidders must provide an undertaking that they have not been blacklisted by any government agency.,1,0.4547
-PHED-2025-055,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-MPMKVV-2025-046,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-WRD-2025-042,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-MPRDC-2025-037,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-MPMKVV-2025-047,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-WRD-2025-043,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-PHED-2025-056,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-WRD-2025-044,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PWD-2025-048,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PHED-2025-057,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-WRD-2025-045,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PWD-2025-049,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-MPRDC-2025-038,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-MPRDC-2025-039,Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.,1,0.4232
-MPMKVV-2025-048,Bidders must have successfully completed at least three similar projects in the last 5 years.,1,0.4451
-PWD-2025-050,Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.,1,0.8258
-UADD-2025-057,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-WRD-2025-046,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-UADD-2025-058,The CEO of the bidding firm must have been a member of the local trade council for over 10 years.,1,0.3888
-WRD-2025-047,The bidder must possess a valid Class-A contractor license from the state government.,1,0.4611
-PWD-2025-051,Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.,1,0.4087
-UADD-2025-059,"Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
-WRD-2025-048,it should be near railway station,1,0.0
+"UADD-2024-001","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"MPMKVV-2024-001","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PHED-2024-001","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PWD-2024-001","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"PHED-2024-002","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PWD-2024-002","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"WRD-2024-001","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"UADD-2024-002","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPRDC-2024-001","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPMKVV-2024-002","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"PWD-2024-003","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"UADD-2024-003","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"PWD-2024-004","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"PWD-2024-005","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"MPMKVV-2024-003","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"MPMKVV-2024-004","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"PHED-2024-003","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPRDC-2024-002","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"UADD-2024-004","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"MPMKVV-2024-005","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"MPMKVV-2024-006","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPRDC-2024-003","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"MPMKVV-2024-007","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"MPRDC-2024-004","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PWD-2024-006","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"MPRDC-2024-005","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"WRD-2024-002","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"MPRDC-2024-006","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"MPRDC-2024-007","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"MPMKVV-2024-008","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"WRD-2024-003","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"PHED-2024-004","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"PHED-2024-005","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"WRD-2024-004","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"WRD-2024-005","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"PWD-2024-007","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"PHED-2024-006","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"MPMKVV-2024-009","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"PWD-2024-008","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"WRD-2024-006","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"MPRDC-2024-008","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PWD-2024-009","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"UADD-2024-005","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"WRD-2024-007","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"UADD-2024-006","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PHED-2024-007","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"UADD-2024-007","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"WRD-2024-008","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PHED-2024-008","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"MPMKVV-2024-010","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PHED-2024-009","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"MPRDC-2024-009","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"MPMKVV-2024-011","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"WRD-2024-009","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"PWD-2024-010","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"PWD-2024-011","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"MPMKVV-2024-012","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"UADD-2024-008","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"MPMKVV-2024-013","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"PWD-2024-012","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"MPMKVV-2024-014","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"PHED-2024-010","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"WRD-2024-010","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"PHED-2024-011","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"MPMKVV-2024-015","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"MPRDC-2024-010","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"WRD-2024-011","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"UADD-2024-009","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"WRD-2024-012","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPMKVV-2024-016","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"UADD-2024-010","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"UADD-2024-011","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"WRD-2024-013","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"WRD-2024-014","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"UADD-2024-012","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"MPMKVV-2024-017","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"PWD-2024-013","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PWD-2024-014","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"UADD-2024-013","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"MPMKVV-2024-018","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"MPMKVV-2024-019","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"WRD-2024-015","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"MPRDC-2024-011","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPMKVV-2024-020","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"WRD-2024-016","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"PHED-2024-012","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"UADD-2024-014","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PWD-2024-015","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"PHED-2024-013","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"PHED-2024-014","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"MPMKVV-2024-021","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"MPRDC-2024-012","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"UADD-2024-015","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPMKVV-2024-022","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"WRD-2024-017","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PWD-2024-016","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"MPMKVV-2024-023","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"PWD-2024-017","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPRDC-2024-013","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPMKVV-2024-024","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"MPRDC-2024-014","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"UADD-2024-016","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"WRD-2024-018","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"MPRDC-2024-015","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"PWD-2024-018","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"PHED-2024-015","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"UADD-2024-017","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"PWD-2024-019","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"WRD-2024-019","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"MPRDC-2024-016","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PHED-2024-016","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"WRD-2024-020","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"UADD-2024-018","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"MPMKVV-2024-025","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"WRD-2024-021","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"PWD-2024-020","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"UADD-2024-019","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"MPRDC-2024-017","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"WRD-2024-022","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"UADD-2024-020","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"UADD-2024-021","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"PHED-2024-017","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"UADD-2024-022","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"WRD-2024-023","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"PHED-2024-018","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"MPRDC-2024-018","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"MPRDC-2024-019","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"PWD-2024-021","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"MPMKVV-2024-026","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PHED-2024-019","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"UADD-2024-023","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PWD-2024-022","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"MPRDC-2024-020","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"PWD-2024-023","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"UADD-2024-024","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"MPRDC-2024-021","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"MPMKVV-2024-027","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PWD-2024-024","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"PWD-2024-025","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"MPMKVV-2024-028","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"UADD-2024-025","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"MPRDC-2024-022","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"MPMKVV-2024-029","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PWD-2024-026","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"MPRDC-2024-023","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"MPRDC-2024-024","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"UADD-2024-026","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"MPRDC-2024-025","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"PHED-2024-020","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"MPMKVV-2024-030","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"MPMKVV-2024-031","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"MPRDC-2024-026","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"PHED-2024-021","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"WRD-2024-024","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"MPMKVV-2024-032","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"MPMKVV-2024-033","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"UADD-2024-027","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"MPRDC-2024-027","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"MPRDC-2024-028","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PWD-2024-027","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"UADD-2024-028","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PWD-2024-028","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"PWD-2024-029","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"PWD-2024-030","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PWD-2024-031","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"WRD-2024-025","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"PHED-2024-022","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"UADD-2024-029","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPRDC-2024-029","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"MPMKVV-2024-034","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPMKVV-2024-035","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"MPMKVV-2024-036","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"PHED-2024-023","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"UADD-2024-030","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"MPMKVV-2024-037","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"PHED-2024-024","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"UADD-2024-031","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"PHED-2024-025","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"MPRDC-2024-030","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"PHED-2024-026","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"WRD-2024-026","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"WRD-2024-027","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PHED-2024-027","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"MPMKVV-2024-038","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"MPRDC-2024-031","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"MPRDC-2024-032","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"PWD-2024-032","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"MPRDC-2024-033","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"WRD-2024-028","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"MPRDC-2024-034","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"UADD-2024-032","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"WRD-2024-029","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"MPRDC-2024-035","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"WRD-2024-030","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"PHED-2024-028","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"PHED-2024-029","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"MPMKVV-2024-039","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PHED-2024-030","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"WRD-2024-031","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"PHED-2024-031","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPRDC-2024-036","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"MPMKVV-2024-040","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"WRD-2024-032","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"UADD-2024-033","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"PHED-2024-032","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"UADD-2024-034","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"PWD-2024-033","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"MPRDC-2024-037","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"PWD-2024-034","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"WRD-2024-033","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"PWD-2024-035","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"WRD-2024-034","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"MPMKVV-2024-041","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PHED-2024-033","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"MPMKVV-2024-042","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"MPRDC-2024-038","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"UADD-2024-035","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"PHED-2024-034","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"PHED-2024-035","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PWD-2024-036","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"WRD-2024-035","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PHED-2024-036","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"PWD-2024-037","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"PHED-2024-037","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"PWD-2024-038","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PWD-2024-039","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"PHED-2024-038","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"PWD-2024-040","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PHED-2024-039","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"PHED-2024-040","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"MPRDC-2024-039","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"MPRDC-2024-040","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"PHED-2024-041","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"UADD-2024-036","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPRDC-2024-041","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"PHED-2024-042","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PWD-2024-041","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"UADD-2024-037","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"UADD-2024-038","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"MPRDC-2024-042","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPRDC-2024-043","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"WRD-2024-036","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PHED-2024-043","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"WRD-2024-037","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"WRD-2024-038","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"MPMKVV-2024-043","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"WRD-2024-039","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"PWD-2024-042","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"PWD-2024-043","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"WRD-2024-040","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"WRD-2024-041","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"UADD-2024-039","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"UADD-2024-040","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"PHED-2024-044","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"MPRDC-2024-044","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"WRD-2024-042","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"MPMKVV-2024-044","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"PWD-2024-044","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"WRD-2024-043","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"MPRDC-2024-045","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"WRD-2024-044","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"UADD-2024-041","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"MPRDC-2024-046","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPRDC-2024-047","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"UADD-2024-042","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"UADD-2024-043","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"MPMKVV-2024-045","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"MPMKVV-2024-046","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"PHED-2024-045","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"UADD-2024-044","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"WRD-2024-045","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"MPRDC-2024-048","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"PHED-2024-046","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"MPMKVV-2024-047","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"MPMKVV-2024-048","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"MPMKVV-2024-049","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"PWD-2024-045","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"UADD-2024-045","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PHED-2024-047","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"PHED-2024-048","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"UADD-2024-046","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"UADD-2024-047","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PHED-2024-049","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"PWD-2024-046","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PWD-2024-047","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPRDC-2024-049","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"WRD-2024-046","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"PHED-2024-050","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"WRD-2024-047","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"MPMKVV-2024-050","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPMKVV-2024-051","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"UADD-2024-048","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"PHED-2024-051","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPRDC-2024-050","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PHED-2024-052","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"MPMKVV-2024-052","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"PWD-2024-048","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"UADD-2024-049","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"PHED-2024-053","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PWD-2024-049","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"PHED-2024-054","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"MPMKVV-2024-053","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"MPMKVV-2024-054","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"MPMKVV-2024-055","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"WRD-2024-048","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"UADD-2024-050","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"MPMKVV-2024-056","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"MPMKVV-2024-057","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPMKVV-2024-058","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"WRD-2024-049","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"UADD-2024-051","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PWD-2024-050","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"MPMKVV-2024-059","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"PWD-2024-051","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PWD-2024-052","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"PWD-2024-053","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"UADD-2024-052","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"MPMKVV-2024-060","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PHED-2024-055","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"MPMKVV-2024-061","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PHED-2024-056","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"MPRDC-2024-051","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"MPMKVV-2024-062","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"MPMKVV-2024-063","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"MPMKVV-2024-064","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"PHED-2024-057","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"UADD-2024-053","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"WRD-2024-050","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"WRD-2024-051","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PWD-2024-054","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"MPMKVV-2024-065","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"MPRDC-2024-052","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"PHED-2024-058","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"UADD-2024-054","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"PHED-2024-059","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"MPMKVV-2024-066","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"PWD-2024-055","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"UADD-2024-055","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"UADD-2024-056","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"PWD-2024-056","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"PWD-2024-057","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PWD-2024-058","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"PHED-2024-060","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"PHED-2024-061","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"UADD-2024-057","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"PHED-2024-062","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"MPMKVV-2024-067","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PWD-2024-059","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"MPRDC-2024-053","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"PHED-2024-063","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"PWD-2024-060","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"PHED-2024-064","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"WRD-2024-052","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPRDC-2024-054","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PHED-2024-065","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"MPRDC-2024-055","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"WRD-2024-053","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"MPRDC-2024-056","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"WRD-2024-054","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"WRD-2024-055","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"MPMKVV-2024-068","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"WRD-2024-056","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"WRD-2024-057","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"WRD-2024-058","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"MPMKVV-2024-069","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"WRD-2024-059","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PWD-2024-061","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"PWD-2024-062","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"PWD-2024-063","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"MPMKVV-2024-070","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"WRD-2024-060","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"WRD-2024-061","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPRDC-2024-057","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"PWD-2024-064","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"MPRDC-2024-058","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"MPRDC-2024-059","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"MPMKVV-2024-071","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPMKVV-2024-072","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"MPRDC-2024-060","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"UADD-2024-058","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"UADD-2024-059","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"PHED-2024-066","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"MPMKVV-2024-073","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"PHED-2024-067","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PHED-2024-068","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"PWD-2024-065","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPMKVV-2024-074","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPRDC-2024-061","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"MPMKVV-2024-075","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"MPRDC-2024-062","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"WRD-2024-062","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"PHED-2024-069","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"MPRDC-2024-063","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"MPRDC-2024-064","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"PWD-2024-066","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"UADD-2024-060","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"MPMKVV-2024-076","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"UADD-2024-061","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"UADD-2024-062","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"UADD-2025-001","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"UADD-2025-002","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PWD-2025-001","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"PHED-2025-001","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"MPMKVV-2025-001","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"MPMKVV-2025-002","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPRDC-2025-001","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"UADD-2025-003","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"WRD-2025-001","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"MPRDC-2025-002","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"WRD-2025-002","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PWD-2025-002","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PWD-2025-003","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"MPMKVV-2025-003","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"MPMKVV-2025-004","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"MPRDC-2025-003","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"UADD-2025-004","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"UADD-2025-005","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"UADD-2025-006","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"PHED-2025-002","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPMKVV-2025-005","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PHED-2025-003","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"WRD-2025-003","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PWD-2025-004","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PHED-2025-004","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"UADD-2025-007","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PHED-2025-005","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"WRD-2025-004","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"PHED-2025-006","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"WRD-2025-005","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"PHED-2025-007","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"MPRDC-2025-004","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"WRD-2025-006","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"PWD-2025-005","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"PHED-2025-008","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"UADD-2025-008","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"PWD-2025-006","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"PHED-2025-009","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"MPMKVV-2025-006","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"PWD-2025-007","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"WRD-2025-007","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPRDC-2025-005","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PHED-2025-010","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"PHED-2025-011","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"PHED-2025-012","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"PHED-2025-013","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"WRD-2025-008","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"MPMKVV-2025-007","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"WRD-2025-009","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"PHED-2025-014","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"UADD-2025-009","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"WRD-2025-010","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"PHED-2025-015","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"UADD-2025-010","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"MPRDC-2025-006","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"UADD-2025-011","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"UADD-2025-012","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"UADD-2025-013","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"MPMKVV-2025-008","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"MPMKVV-2025-009","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPRDC-2025-007","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"MPMKVV-2025-010","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"PWD-2025-008","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"PWD-2025-009","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"UADD-2025-014","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PHED-2025-016","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"UADD-2025-015","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"UADD-2025-016","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"PHED-2025-017","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"WRD-2025-011","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"PHED-2025-018","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"UADD-2025-017","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"MPMKVV-2025-011","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"MPMKVV-2025-012","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"UADD-2025-018","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"PWD-2025-010","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"WRD-2025-012","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"WRD-2025-013","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"MPMKVV-2025-013","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"MPRDC-2025-008","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPMKVV-2025-014","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"UADD-2025-019","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"PHED-2025-019","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"UADD-2025-020","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"PHED-2025-020","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"PHED-2025-021","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"UADD-2025-021","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPMKVV-2025-015","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"PWD-2025-011","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"UADD-2025-022","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"PHED-2025-022","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"PWD-2025-012","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPRDC-2025-009","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"WRD-2025-014","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"MPMKVV-2025-016","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PHED-2025-023","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"UADD-2025-023","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"MPMKVV-2025-017","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"MPRDC-2025-010","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"PWD-2025-013","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"PHED-2025-024","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"WRD-2025-015","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"UADD-2025-024","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"PWD-2025-014","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PHED-2025-025","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"UADD-2025-025","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"WRD-2025-016","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPRDC-2025-011","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"WRD-2025-017","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"WRD-2025-018","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"UADD-2025-026","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"UADD-2025-027","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"PHED-2025-026","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PWD-2025-015","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"UADD-2025-028","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"UADD-2025-029","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"UADD-2025-030","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPRDC-2025-012","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"PHED-2025-027","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"WRD-2025-019","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"MPRDC-2025-013","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"PWD-2025-016","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"PHED-2025-028","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PWD-2025-017","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"UADD-2025-031","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PHED-2025-029","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"UADD-2025-032","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"MPRDC-2025-014","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"UADD-2025-033","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"MPMKVV-2025-018","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"PWD-2025-018","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"UADD-2025-034","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PWD-2025-019","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"MPRDC-2025-015","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"MPMKVV-2025-019","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPMKVV-2025-020","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"UADD-2025-035","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"PHED-2025-030","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"PWD-2025-020","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"WRD-2025-020","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"WRD-2025-021","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"WRD-2025-022","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"UADD-2025-036","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"MPRDC-2025-016","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"UADD-2025-037","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"PHED-2025-031","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"UADD-2025-038","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"WRD-2025-023","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"MPRDC-2025-017","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"WRD-2025-024","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"UADD-2025-039","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"UADD-2025-040","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"WRD-2025-025","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"WRD-2025-026","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"MPRDC-2025-018","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"MPRDC-2025-019","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"UADD-2025-041","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"MPRDC-2025-020","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"WRD-2025-027","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PWD-2025-021","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"WRD-2025-028","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"UADD-2025-042","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"PHED-2025-032","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"WRD-2025-029","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PHED-2025-033","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"UADD-2025-043","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"MPMKVV-2025-021","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"PWD-2025-022","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"UADD-2025-044","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"PHED-2025-034","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"PWD-2025-023","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"PWD-2025-024","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"UADD-2025-045","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"UADD-2025-046","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PWD-2025-025","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"MPMKVV-2025-022","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"PWD-2025-026","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"MPRDC-2025-021","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"PHED-2025-035","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"WRD-2025-030","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"MPRDC-2025-022","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"PHED-2025-036","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"UADD-2025-047","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"MPMKVV-2025-023","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"PHED-2025-037","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"WRD-2025-031","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"UADD-2025-048","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"MPRDC-2025-023","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"PWD-2025-027","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"MPMKVV-2025-024","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"MPMKVV-2025-025","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"UADD-2025-049","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PHED-2025-038","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"PHED-2025-039","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"UADD-2025-050","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"MPMKVV-2025-026","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"PWD-2025-028","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PWD-2025-029","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"UADD-2025-051","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"MPRDC-2025-024","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PWD-2025-030","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"MPRDC-2025-025","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"MPRDC-2025-026","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"PWD-2025-031","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"PHED-2025-040","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"MPRDC-2025-027","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PWD-2025-032","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PWD-2025-033","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"MPRDC-2025-028","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"MPMKVV-2025-027","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PWD-2025-034","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"PWD-2025-035","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"PHED-2025-041","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"WRD-2025-032","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"PHED-2025-042","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PHED-2025-043","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"WRD-2025-033","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"PWD-2025-036","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"PWD-2025-037","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"MPMKVV-2025-028","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"MPRDC-2025-029","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"WRD-2025-034","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"WRD-2025-035","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"UADD-2025-052","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"MPMKVV-2025-029","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"MPRDC-2025-030","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"PWD-2025-038","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"PHED-2025-044","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"MPMKVV-2025-030","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"MPRDC-2025-031","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPMKVV-2025-031","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"WRD-2025-036","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"UADD-2025-053","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"MPMKVV-2025-032","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PHED-2025-045","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"MPMKVV-2025-033","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"PHED-2025-046","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"MPRDC-2025-032","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"UADD-2025-054","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPMKVV-2025-034","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"PHED-2025-047","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"WRD-2025-037","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"WRD-2025-038","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"MPMKVV-2025-035","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"MPRDC-2025-033","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"MPMKVV-2025-036","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPMKVV-2025-037","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"WRD-2025-039","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"PWD-2025-039","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PHED-2025-048","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"PWD-2025-040","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"PWD-2025-041","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"PHED-2025-049","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"PHED-2025-050","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"PWD-2025-042","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPMKVV-2025-038","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"PHED-2025-051","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"MPRDC-2025-034","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PWD-2025-043","Bidder must have experience of working exactly in the tribal belts of Eastern MP for 12.5 years.",1,0.7186
+"MPMKVV-2025-039","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"PWD-2025-044","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPMKVV-2025-040","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"UADD-2025-055","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"PHED-2025-052","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PWD-2025-045","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"MPMKVV-2025-041","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"WRD-2025-040","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PHED-2025-053","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"PWD-2025-046","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"MPMKVV-2025-042","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"WRD-2025-041","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"MPMKVV-2025-043","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPMKVV-2025-044","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PHED-2025-054","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"PWD-2025-047","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPRDC-2025-035","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"UADD-2025-056","The technical partner must be registered within a 5km radius of the project site office.",1,0.8613
+"MPMKVV-2025-045","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"MPRDC-2025-036","Bidders must provide an undertaking that they have not been blacklisted by any government agency.",1,0.4547
+"PHED-2025-055","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"MPMKVV-2025-046","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"WRD-2025-042","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"MPRDC-2025-037","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"MPMKVV-2025-047","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"WRD-2025-043","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"PHED-2025-056","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"WRD-2025-044","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PWD-2025-048","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PHED-2025-057","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"WRD-2025-045","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PWD-2025-049","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"MPRDC-2025-038","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"MPRDC-2025-039","Minimum annual turnover of the bidder should be at least 50% of the estimated tender value.",1,0.4232
+"MPMKVV-2025-048","Bidders must have successfully completed at least three similar projects in the last 5 years.",1,0.4451
+"PWD-2025-050","Experience in building exactly 3 bridges of length exceeding 45.7 meters in a single year is mandatory.",1,0.8258
+"UADD-2025-057","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"WRD-2025-046","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"UADD-2025-058","The CEO of the bidding firm must have been a member of the local trade council for over 10 years.",1,0.3888
+"WRD-2025-047","The bidder must possess a valid Class-A contractor license from the state government.",1,0.4611
+"PWD-2025-051","Submission of Earnest Money Deposit (EMD) is mandatory via Nationalized Bank Draft.",1,0.4087
+"UADD-2025-059","Bidder must have completed a project using 'SpecificModel-X' technology, owned by local distributors.",1,0.75
+"WRD-2025-048","it should be near railway station",1,0
+"MPMKVV-2026-001","Minimum 15 years experience ",1,0
+"PWD-2026-001","At least 15 years of experience needed..",1,0.2521
+"PWD-2026-002","At least 15 years of experience needed!",1,0.2521
+"PWD-2026-003","At least 10 years of experience needed.",1,0.2232
+"WRD-2026-001","n",1,0
+"PHED-2026-001","m",1,0

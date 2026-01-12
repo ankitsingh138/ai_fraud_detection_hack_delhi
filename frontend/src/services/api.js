@@ -45,6 +45,21 @@ export const tenderAPI = {
     return fetchAPI('/api/tenders?status=active');
   },
 
+  // Get pending approval tenders
+  getPending: async () => {
+    return fetchAPI('/api/tenders?status=pending_approval');
+  },
+
+  // Get rejected tenders
+  getRejected: async () => {
+    return fetchAPI('/api/tenders?status=rejected');
+  },
+
+  // Get closed tenders
+  getClosed: async () => {
+    return fetchAPI('/api/tenders?status=closed');
+  },
+
   // Get tender by ID
   getById: async (tenderId) => {
     return fetchAPI(`/api/tenders/${tenderId}`);
@@ -54,6 +69,30 @@ export const tenderAPI = {
   getStats: async (deptName = null) => {
     const params = deptName ? `?deptName=${deptName}` : '';
     return fetchAPI(`/api/tenders/stats${params}`);
+  },
+
+  // Approve a tender (Authority action)
+  approve: async (tenderId, reviewedBy = 'Authority') => {
+    return fetchAPI(`/api/tenders/${tenderId}/approve`, {
+      method: 'POST',
+      body: JSON.stringify({ reviewedBy }),
+    });
+  },
+
+  // Reject a tender (Authority action)
+  reject: async (tenderId, rejectionReason, reviewedBy = 'Authority') => {
+    return fetchAPI(`/api/tenders/${tenderId}/reject`, {
+      method: 'POST',
+      body: JSON.stringify({ rejectionReason, reviewedBy }),
+    });
+  },
+
+  // Resubmit a rejected tender (Government action)
+  resubmit: async (tenderId, updates) => {
+    return fetchAPI(`/api/tenders/${tenderId}/resubmit`, {
+      method: 'POST',
+      body: JSON.stringify(updates),
+    });
   },
 };
 
@@ -94,6 +133,11 @@ export const fraudAPI = {
   // Get fraud summary
   getSummary: async () => {
     return fetchAPI('/api/fraud/summary');
+  },
+
+  // Check specific tender for all fraud indicators
+  checkTender: async (tenderId) => {
+    return fetchAPI(`/api/fraud/check-tender/${tenderId}`);
   },
 
   // Get address collusion data

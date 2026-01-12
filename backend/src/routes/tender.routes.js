@@ -4,7 +4,10 @@ import {
   getTenders,
   getTenderById,
   updateTenderStatus,
-  getTenderStats
+  getTenderStats,
+  approveTender,
+  rejectTender,
+  resubmitTender
 } from "../controllers/tender.controller.js";
 
 const router = express.Router();
@@ -23,6 +26,15 @@ router.get("/:tenderId", getTenderById);
 
 // Update tender status
 router.patch("/:tenderId/status", updateTenderStatus);
+
+// Approve tender (Authority action)
+router.post("/:tenderId/approve", approveTender);
+
+// Reject tender (Authority action)
+router.post("/:tenderId/reject", rejectTender);
+
+// Resubmit rejected tender (Government action)
+router.post("/:tenderId/resubmit", resubmitTender);
 
 export default router;
 
